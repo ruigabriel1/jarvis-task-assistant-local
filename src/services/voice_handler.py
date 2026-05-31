@@ -21,7 +21,11 @@ class VoiceHandler:
         self.gui_callback = gui_callback
         self.active_mode = False
         
-        self.project_dir = os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', '..'))
+        import sys
+        if getattr(sys, 'frozen', False):
+            self.project_dir = os.path.dirname(sys.executable)
+        else:
+            self.project_dir = os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', '..'))
         self.log_dir = os.path.join(self.project_dir, "logs")
         os.makedirs(self.log_dir, exist_ok=True)
         self.log_filepath = os.path.join(self.log_dir, "jarvis.log")

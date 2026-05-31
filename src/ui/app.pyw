@@ -2,7 +2,10 @@ import os
 import sys
 
 # Ensure root is in sys.path
-root_dir = os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', '..'))
+if getattr(sys, 'frozen', False):
+    root_dir = os.path.dirname(sys.executable)
+else:
+    root_dir = os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', '..'))
 if root_dir not in sys.path:
     sys.path.insert(0, root_dir)
 
@@ -19,7 +22,10 @@ class JarvisApp(ctk.CTk):
     def __init__(self):
         super().__init__()
 
-        self.project_dir = os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', '..'))
+        if getattr(sys, 'frozen', False):
+            self.project_dir = os.path.dirname(sys.executable)
+        else:
+            self.project_dir = os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', '..'))
         self.data_dir = os.path.join(self.project_dir, "data")
         os.makedirs(self.data_dir, exist_ok=True)
         self.tasks_filepath = os.path.join(self.data_dir, "tasks.db")
