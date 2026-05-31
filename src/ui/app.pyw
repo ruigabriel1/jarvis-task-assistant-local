@@ -1,9 +1,16 @@
 import os
+import sys
+
+# Ensure root is in sys.path
+root_dir = os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', '..'))
+if root_dir not in sys.path:
+    sys.path.insert(0, root_dir)
+
 import json
 import tkinter as tk
 import customtkinter as ctk
-from task_manager import TaskManager
-from voice_handler import VoiceHandler
+from src.core.task_manager import TaskManager
+from src.services.voice_handler import VoiceHandler
 
 ctk.set_appearance_mode("dark")
 ctk.set_default_color_theme("blue")
@@ -12,7 +19,7 @@ class JarvisApp(ctk.CTk):
     def __init__(self):
         super().__init__()
 
-        self.project_dir = os.path.dirname(os.path.abspath(__file__))
+        self.project_dir = os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', '..'))
         self.data_dir = os.path.join(self.project_dir, "data")
         os.makedirs(self.data_dir, exist_ok=True)
         self.tasks_filepath = os.path.join(self.data_dir, "tasks.db")
@@ -275,7 +282,7 @@ class JarvisApp(ctk.CTk):
                 card_mid = card.winfo_rooty() + card.winfo_height() // 2
                 if y_root < card_mid:
                     return idx
-            except Exception:
+            except (tk.TclError, AttributeError):
                 pass
         return len(self._card_list)
 

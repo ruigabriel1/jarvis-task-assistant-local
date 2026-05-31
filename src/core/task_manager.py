@@ -35,7 +35,7 @@ class TaskManager:
                 # Add sort_order to existing databases that don't have the column yet
                 try:
                     conn.execute("ALTER TABLE tasks ADD COLUMN sort_order INTEGER NOT NULL DEFAULT 0")
-                except Exception:
+                except sqlite3.OperationalError:
                     pass  # Column already exists
                 # Initialize sort_order for rows still at 0 (migration from old schema)
                 conn.execute("UPDATE tasks SET sort_order = id * 10 WHERE sort_order = 0")
@@ -65,8 +65,8 @@ class TaskManager:
                     if os.path.exists(bak_path):
                         try:
                             os.remove(bak_path)
-                        except Exception:
-                            pass
+                        except OSError as e:
+                            print(f"[TaskManager] Error removing old bak file: {e}")
                     os.rename(self.json_filepath, bak_path)
                     print(f"[TaskManager] Archived old JSON file to {bak_path}")
                 except Exception as e:
@@ -106,10 +106,9 @@ class TaskManager:
             try:
                 conn = sqlite3.connect(self.filepath)
                 conn.execute("BEGIN TRANSACTION")
-                conn.execute("DELETE FROM tasks")
                 for t in tasks:
                     conn.execute(
-                        "INSERT INTO tasks (id, text, completed, priority, sort_order) VALUES (?, ?, ?, ?, ?)",
+                        "INSERT OR REPLACE INTO tasks (id, text, completed, priority, sort_order) VALUES (?, ?, ?, ?, ?)",
                         (t["id"], t["text"], 1 if t["completed"] else 0, t["priority"], t.get("sort_order", t["id"] * 10))
                     )
                 conn.commit()
@@ -119,8 +118,8 @@ class TaskManager:
                 if conn:
                     try:
                         conn.rollback()
-                    except Exception:
-                        pass
+                    except sqlite3.Error as re:
+                        print(f"[TaskManager] Error rolling back: {re}")
                 return False
             finally:
                 if conn:
@@ -130,7 +129,53 @@ class TaskManager:
         """Thread-safe and atomic read-modify-write cycle."""
         with self._lock:
             tasks = self.read_tasks()
+            # Snapshot the old state before the callback potentially mutates the dictionaries
+            old_tasks_map = {t["id"]: dict(t) for t in tasks}
+            
             modified_tasks = modify_callback(tasks)
             if modified_tasks is not None:
-                return self.write_tasks(modified_tasks)
+                conn = None
+                try:
+                    conn = sqlite3.connect(self.filepath)
+                    conn.execute("BEGIN TRANSACTION")
+                    
+                    new_tasks_map = {t["id"]: t for t in modified_tasks}
+                    
+                    # Delete removed tasks
+                    for old_id in old_tasks_map:
+                        if old_id not in new_tasks_map:
+                            conn.execute("DELETE FROM tasks WHERE id = ?", (old_id,))
+                            
+                    # Insert new tasks and update modified ones
+                    for t in modified_tasks:
+                        new_id = t["id"]
+                        if new_id not in old_tasks_map:
+                            conn.execute(
+                                "INSERT INTO tasks (id, text, completed, priority, sort_order) VALUES (?, ?, ?, ?, ?)",
+                                (new_id, t["text"], 1 if t["completed"] else 0, t["priority"], t.get("sort_order", new_id * 10))
+                            )
+                        else:
+                            old_task = old_tasks_map[new_id]
+                            if (old_task["text"] != t["text"] or 
+                                old_task["completed"] != t["completed"] or 
+                                old_task["priority"] != t["priority"] or 
+                                old_task["sort_order"] != t.get("sort_order", new_id * 10)):
+                                conn.execute(
+                                    "UPDATE tasks SET text = ?, completed = ?, priority = ?, sort_order = ? WHERE id = ?",
+                                    (t["text"], 1 if t["completed"] else 0, t["priority"], t.get("sort_order", new_id * 10), new_id)
+                                )
+                                
+                    conn.commit()
+                    return True
+                except Exception as e:
+                    print(f"[TaskManager] Error updating tasks in SQLite: {e}")
+                    if conn:
+                        try:
+                            conn.rollback()
+                        except sqlite3.Error as re:
+                            print(f"[TaskManager] Error rolling back: {re}")
+                    return False
+                finally:
+                    if conn:
+                        conn.close()
             return False

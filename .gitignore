@@ -17,3 +17,7 @@ logs/
 # Ignore backups
 *.bak
 data/*.bak
+
+# Ignore ML models
+*.pkl
+data/*.pkl

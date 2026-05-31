@@ -1,0 +1,1797 @@
+text,intent
+Adicionar tarefa: comprar pão,add_task
+Lembrar de comprar pão,add_task
+Criar tarefa para comprar pão,add_task
+Preciso comprar pão,add_task
+Nova tarefa: comprar pão,add_task
+Me lembre de comprar pão,add_task
+Adiciona comprar pão na lista,add_task
+Agendar comprar pão,add_task
+Tenho que comprar pão,add_task
+Incluir comprar pão,add_task
+Adicionar tarefa: pagar conta,add_task
+Lembrar de pagar conta,add_task
+Criar tarefa para pagar conta,add_task
+Preciso pagar conta,add_task
+Nova tarefa: pagar conta,add_task
+Me lembre de pagar conta,add_task
+Adiciona pagar conta na lista,add_task
+Agendar pagar conta,add_task
+Tenho que pagar conta,add_task
+Incluir pagar conta,add_task
+Adicionar tarefa: ligar pro medico,add_task
+Lembrar de ligar pro medico,add_task
+Criar tarefa para ligar pro medico,add_task
+Preciso ligar pro medico,add_task
+Nova tarefa: ligar pro medico,add_task
+Me lembre de ligar pro medico,add_task
+Adiciona ligar pro medico na lista,add_task
+Agendar ligar pro medico,add_task
+Tenho que ligar pro medico,add_task
+Incluir ligar pro medico,add_task
+Adicionar tarefa: estudar python,add_task
+Lembrar de estudar python,add_task
+Criar tarefa para estudar python,add_task
+Preciso estudar python,add_task
+Nova tarefa: estudar python,add_task
+Me lembre de estudar python,add_task
+Adiciona estudar python na lista,add_task
+Agendar estudar python,add_task
+Tenho que estudar python,add_task
+Incluir estudar python,add_task
+Adicionar tarefa: fazer o relatorio,add_task
+Lembrar de fazer o relatorio,add_task
+Criar tarefa para fazer o relatorio,add_task
+Preciso fazer o relatorio,add_task
+Nova tarefa: fazer o relatorio,add_task
+Me lembre de fazer o relatorio,add_task
+Adiciona fazer o relatorio na lista,add_task
+Agendar fazer o relatorio,add_task
+Tenho que fazer o relatorio,add_task
+Incluir fazer o relatorio,add_task
+Adicionar tarefa: lavar o carro,add_task
+Lembrar de lavar o carro,add_task
+Criar tarefa para lavar o carro,add_task
+Preciso lavar o carro,add_task
+Nova tarefa: lavar o carro,add_task
+Me lembre de lavar o carro,add_task
+Adiciona lavar o carro na lista,add_task
+Agendar lavar o carro,add_task
+Tenho que lavar o carro,add_task
+Incluir lavar o carro,add_task
+Adicionar tarefa: passear com cachorro,add_task
+Lembrar de passear com cachorro,add_task
+Criar tarefa para passear com cachorro,add_task
+Preciso passear com cachorro,add_task
+Nova tarefa: passear com cachorro,add_task
+Me lembre de passear com cachorro,add_task
+Adiciona passear com cachorro na lista,add_task
+Agendar passear com cachorro,add_task
+Tenho que passear com cachorro,add_task
+Incluir passear com cachorro,add_task
+Adicionar tarefa: comprar leite,add_task
+Lembrar de comprar leite,add_task
+Criar tarefa para comprar leite,add_task
+Preciso comprar leite,add_task
+Nova tarefa: comprar leite,add_task
+Me lembre de comprar leite,add_task
+Adiciona comprar leite na lista,add_task
+Agendar comprar leite,add_task
+Tenho que comprar leite,add_task
+Incluir comprar leite,add_task
+Adicionar tarefa: arrumar o quarto,add_task
+Lembrar de arrumar o quarto,add_task
+Criar tarefa para arrumar o quarto,add_task
+Preciso arrumar o quarto,add_task
+Nova tarefa: arrumar o quarto,add_task
+Me lembre de arrumar o quarto,add_task
+Adiciona arrumar o quarto na lista,add_task
+Agendar arrumar o quarto,add_task
+Tenho que arrumar o quarto,add_task
+Incluir arrumar o quarto,add_task
+Adicionar tarefa: ler um livro,add_task
+Lembrar de ler um livro,add_task
+Criar tarefa para ler um livro,add_task
+Preciso ler um livro,add_task
+Nova tarefa: ler um livro,add_task
+Me lembre de ler um livro,add_task
+Adiciona ler um livro na lista,add_task
+Agendar ler um livro,add_task
+Tenho que ler um livro,add_task
+Incluir ler um livro,add_task
+Adicionar tarefa: ir ao mercado,add_task
+Lembrar de ir ao mercado,add_task
+Criar tarefa para ir ao mercado,add_task
+Preciso ir ao mercado,add_task
+Nova tarefa: ir ao mercado,add_task
+Me lembre de ir ao mercado,add_task
+Adiciona ir ao mercado na lista,add_task
+Agendar ir ao mercado,add_task
+Tenho que ir ao mercado,add_task
+Incluir ir ao mercado,add_task
+Adicionar tarefa: fazer exercicios,add_task
+Lembrar de fazer exercicios,add_task
+Criar tarefa para fazer exercicios,add_task
+Preciso fazer exercicios,add_task
+Nova tarefa: fazer exercicios,add_task
+Me lembre de fazer exercicios,add_task
+Adiciona fazer exercicios na lista,add_task
+Agendar fazer exercicios,add_task
+Tenho que fazer exercicios,add_task
+Incluir fazer exercicios,add_task
+Adicionar tarefa: enviar email,add_task
+Lembrar de enviar email,add_task
+Criar tarefa para enviar email,add_task
+Preciso enviar email,add_task
+Nova tarefa: enviar email,add_task
+Me lembre de enviar email,add_task
+Adiciona enviar email na lista,add_task
+Agendar enviar email,add_task
+Tenho que enviar email,add_task
+Incluir enviar email,add_task
+Adicionar tarefa: limpar a casa,add_task
+Lembrar de limpar a casa,add_task
+Criar tarefa para limpar a casa,add_task
+Preciso limpar a casa,add_task
+Nova tarefa: limpar a casa,add_task
+Me lembre de limpar a casa,add_task
+Adiciona limpar a casa na lista,add_task
+Agendar limpar a casa,add_task
+Tenho que limpar a casa,add_task
+Incluir limpar a casa,add_task
+Adicionar tarefa: fazer o jantar,add_task
+Lembrar de fazer o jantar,add_task
+Criar tarefa para fazer o jantar,add_task
+Preciso fazer o jantar,add_task
+Nova tarefa: fazer o jantar,add_task
+Me lembre de fazer o jantar,add_task
+Adiciona fazer o jantar na lista,add_task
+Agendar fazer o jantar,add_task
+Tenho que fazer o jantar,add_task
+Incluir fazer o jantar,add_task
+Adicionar tarefa: comprar presente,add_task
+Lembrar de comprar presente,add_task
+Criar tarefa para comprar presente,add_task
+Preciso comprar presente,add_task
+Nova tarefa: comprar presente,add_task
+Me lembre de comprar presente,add_task
+Adiciona comprar presente na lista,add_task
+Agendar comprar presente,add_task
+Tenho que comprar presente,add_task
+Incluir comprar presente,add_task
+Adicionar tarefa: reservar restaurante,add_task
+Lembrar de reservar restaurante,add_task
+Criar tarefa para reservar restaurante,add_task
+Preciso reservar restaurante,add_task
+Nova tarefa: reservar restaurante,add_task
+Me lembre de reservar restaurante,add_task
+Adiciona reservar restaurante na lista,add_task
+Agendar reservar restaurante,add_task
+Tenho que reservar restaurante,add_task
+Incluir reservar restaurante,add_task
+Adicionar tarefa: cancelar assinatura,add_task
+Lembrar de cancelar assinatura,add_task
+Criar tarefa para cancelar assinatura,add_task
+Preciso cancelar assinatura,add_task
+Nova tarefa: cancelar assinatura,add_task
+Me lembre de cancelar assinatura,add_task
+Adiciona cancelar assinatura na lista,add_task
+Agendar cancelar assinatura,add_task
+Tenho que cancelar assinatura,add_task
+Incluir cancelar assinatura,add_task
+Adicionar tarefa: revisar codigo,add_task
+Lembrar de revisar codigo,add_task
+Criar tarefa para revisar codigo,add_task
+Preciso revisar codigo,add_task
+Nova tarefa: revisar codigo,add_task
+Me lembre de revisar codigo,add_task
+Adiciona revisar codigo na lista,add_task
+Agendar revisar codigo,add_task
+Tenho que revisar codigo,add_task
+Incluir revisar codigo,add_task
+Adicionar tarefa: treinar,add_task
+Lembrar de treinar,add_task
+Criar tarefa para treinar,add_task
+Preciso treinar,add_task
+Nova tarefa: treinar,add_task
+Me lembre de treinar,add_task
+Adiciona treinar na lista,add_task
+Agendar treinar,add_task
+Tenho que treinar,add_task
+Incluir treinar,add_task
+Deletar tarefa comprar pão,delete_task
+Remover comprar pão,delete_task
+Apagar comprar pão,delete_task
+Excluir comprar pão,delete_task
+Tirar comprar pão da lista,delete_task
+Cancela a tarefa comprar pão,delete_task
+Não preciso mais comprar pão,delete_task
+Pode apagar comprar pão,delete_task
+Remove a tarefa de comprar pão,delete_task
+Deleta comprar pão,delete_task
+Deletar tarefa pagar conta,delete_task
+Remover pagar conta,delete_task
+Apagar pagar conta,delete_task
+Excluir pagar conta,delete_task
+Tirar pagar conta da lista,delete_task
+Cancela a tarefa pagar conta,delete_task
+Não preciso mais pagar conta,delete_task
+Pode apagar pagar conta,delete_task
+Remove a tarefa de pagar conta,delete_task
+Deleta pagar conta,delete_task
+Deletar tarefa ligar pro medico,delete_task
+Remover ligar pro medico,delete_task
+Apagar ligar pro medico,delete_task
+Excluir ligar pro medico,delete_task
+Tirar ligar pro medico da lista,delete_task
+Cancela a tarefa ligar pro medico,delete_task
+Não preciso mais ligar pro medico,delete_task
+Pode apagar ligar pro medico,delete_task
+Remove a tarefa de ligar pro medico,delete_task
+Deleta ligar pro medico,delete_task
+Deletar tarefa estudar python,delete_task
+Remover estudar python,delete_task
+Apagar estudar python,delete_task
+Excluir estudar python,delete_task
+Tirar estudar python da lista,delete_task
+Cancela a tarefa estudar python,delete_task
+Não preciso mais estudar python,delete_task
+Pode apagar estudar python,delete_task
+Remove a tarefa de estudar python,delete_task
+Deleta estudar python,delete_task
+Deletar tarefa fazer o relatorio,delete_task
+Remover fazer o relatorio,delete_task
+Apagar fazer o relatorio,delete_task
+Excluir fazer o relatorio,delete_task
+Tirar fazer o relatorio da lista,delete_task
+Cancela a tarefa fazer o relatorio,delete_task
+Não preciso mais fazer o relatorio,delete_task
+Pode apagar fazer o relatorio,delete_task
+Remove a tarefa de fazer o relatorio,delete_task
+Deleta fazer o relatorio,delete_task
+Deletar tarefa lavar o carro,delete_task
+Remover lavar o carro,delete_task
+Apagar lavar o carro,delete_task
+Excluir lavar o carro,delete_task
+Tirar lavar o carro da lista,delete_task
+Cancela a tarefa lavar o carro,delete_task
+Não preciso mais lavar o carro,delete_task
+Pode apagar lavar o carro,delete_task
+Remove a tarefa de lavar o carro,delete_task
+Deleta lavar o carro,delete_task
+Deletar tarefa passear com cachorro,delete_task
+Remover passear com cachorro,delete_task
+Apagar passear com cachorro,delete_task
+Excluir passear com cachorro,delete_task
+Tirar passear com cachorro da lista,delete_task
+Cancela a tarefa passear com cachorro,delete_task
+Não preciso mais passear com cachorro,delete_task
+Pode apagar passear com cachorro,delete_task
+Remove a tarefa de passear com cachorro,delete_task
+Deleta passear com cachorro,delete_task
+Deletar tarefa comprar leite,delete_task
+Remover comprar leite,delete_task
+Apagar comprar leite,delete_task
+Excluir comprar leite,delete_task
+Tirar comprar leite da lista,delete_task
+Cancela a tarefa comprar leite,delete_task
+Não preciso mais comprar leite,delete_task
+Pode apagar comprar leite,delete_task
+Remove a tarefa de comprar leite,delete_task
+Deleta comprar leite,delete_task
+Deletar tarefa arrumar o quarto,delete_task
+Remover arrumar o quarto,delete_task
+Apagar arrumar o quarto,delete_task
+Excluir arrumar o quarto,delete_task
+Tirar arrumar o quarto da lista,delete_task
+Cancela a tarefa arrumar o quarto,delete_task
+Não preciso mais arrumar o quarto,delete_task
+Pode apagar arrumar o quarto,delete_task
+Remove a tarefa de arrumar o quarto,delete_task
+Deleta arrumar o quarto,delete_task
+Deletar tarefa ler um livro,delete_task
+Remover ler um livro,delete_task
+Apagar ler um livro,delete_task
+Excluir ler um livro,delete_task
+Tirar ler um livro da lista,delete_task
+Cancela a tarefa ler um livro,delete_task
+Não preciso mais ler um livro,delete_task
+Pode apagar ler um livro,delete_task
+Remove a tarefa de ler um livro,delete_task
+Deleta ler um livro,delete_task
+Deletar tarefa ir ao mercado,delete_task
+Remover ir ao mercado,delete_task
+Apagar ir ao mercado,delete_task
+Excluir ir ao mercado,delete_task
+Tirar ir ao mercado da lista,delete_task
+Cancela a tarefa ir ao mercado,delete_task
+Não preciso mais ir ao mercado,delete_task
+Pode apagar ir ao mercado,delete_task
+Remove a tarefa de ir ao mercado,delete_task
+Deleta ir ao mercado,delete_task
+Deletar tarefa fazer exercicios,delete_task
+Remover fazer exercicios,delete_task
+Apagar fazer exercicios,delete_task
+Excluir fazer exercicios,delete_task
+Tirar fazer exercicios da lista,delete_task
+Cancela a tarefa fazer exercicios,delete_task
+Não preciso mais fazer exercicios,delete_task
+Pode apagar fazer exercicios,delete_task
+Remove a tarefa de fazer exercicios,delete_task
+Deleta fazer exercicios,delete_task
+Deletar tarefa enviar email,delete_task
+Remover enviar email,delete_task
+Apagar enviar email,delete_task
+Excluir enviar email,delete_task
+Tirar enviar email da lista,delete_task
+Cancela a tarefa enviar email,delete_task
+Não preciso mais enviar email,delete_task
+Pode apagar enviar email,delete_task
+Remove a tarefa de enviar email,delete_task
+Deleta enviar email,delete_task
+Deletar tarefa limpar a casa,delete_task
+Remover limpar a casa,delete_task
+Apagar limpar a casa,delete_task
+Excluir limpar a casa,delete_task
+Tirar limpar a casa da lista,delete_task
+Cancela a tarefa limpar a casa,delete_task
+Não preciso mais limpar a casa,delete_task
+Pode apagar limpar a casa,delete_task
+Remove a tarefa de limpar a casa,delete_task
+Deleta limpar a casa,delete_task
+Deletar tarefa fazer o jantar,delete_task
+Remover fazer o jantar,delete_task
+Apagar fazer o jantar,delete_task
+Excluir fazer o jantar,delete_task
+Tirar fazer o jantar da lista,delete_task
+Cancela a tarefa fazer o jantar,delete_task
+Não preciso mais fazer o jantar,delete_task
+Pode apagar fazer o jantar,delete_task
+Remove a tarefa de fazer o jantar,delete_task
+Deleta fazer o jantar,delete_task
+Deletar tarefa comprar presente,delete_task
+Remover comprar presente,delete_task
+Apagar comprar presente,delete_task
+Excluir comprar presente,delete_task
+Tirar comprar presente da lista,delete_task
+Cancela a tarefa comprar presente,delete_task
+Não preciso mais comprar presente,delete_task
+Pode apagar comprar presente,delete_task
+Remove a tarefa de comprar presente,delete_task
+Deleta comprar presente,delete_task
+Deletar tarefa reservar restaurante,delete_task
+Remover reservar restaurante,delete_task
+Apagar reservar restaurante,delete_task
+Excluir reservar restaurante,delete_task
+Tirar reservar restaurante da lista,delete_task
+Cancela a tarefa reservar restaurante,delete_task
+Não preciso mais reservar restaurante,delete_task
+Pode apagar reservar restaurante,delete_task
+Remove a tarefa de reservar restaurante,delete_task
+Deleta reservar restaurante,delete_task
+Deletar tarefa cancelar assinatura,delete_task
+Remover cancelar assinatura,delete_task
+Apagar cancelar assinatura,delete_task
+Excluir cancelar assinatura,delete_task
+Tirar cancelar assinatura da lista,delete_task
+Cancela a tarefa cancelar assinatura,delete_task
+Não preciso mais cancelar assinatura,delete_task
+Pode apagar cancelar assinatura,delete_task
+Remove a tarefa de cancelar assinatura,delete_task
+Deleta cancelar assinatura,delete_task
+Deletar tarefa revisar codigo,delete_task
+Remover revisar codigo,delete_task
+Apagar revisar codigo,delete_task
+Excluir revisar codigo,delete_task
+Tirar revisar codigo da lista,delete_task
+Cancela a tarefa revisar codigo,delete_task
+Não preciso mais revisar codigo,delete_task
+Pode apagar revisar codigo,delete_task
+Remove a tarefa de revisar codigo,delete_task
+Deleta revisar codigo,delete_task
+Deletar tarefa treinar,delete_task
+Remover treinar,delete_task
+Apagar treinar,delete_task
+Excluir treinar,delete_task
+Tirar treinar da lista,delete_task
+Cancela a tarefa treinar,delete_task
+Não preciso mais treinar,delete_task
+Pode apagar treinar,delete_task
+Remove a tarefa de treinar,delete_task
+Deleta treinar,delete_task
+Completar comprar pão,complete_task
+Concluir comprar pão,complete_task
+Terminei de comprar pão,complete_task
+Já fiz comprar pão,complete_task
+Marcar comprar pão como feita,complete_task
+Tarefa comprar pão concluída,complete_task
+Finalizei comprar pão,complete_task
+Marcar como pronto: comprar pão,complete_task
+Riscar comprar pão da lista,complete_task
+Dá um check em comprar pão,complete_task
+Completar pagar conta,complete_task
+Concluir pagar conta,complete_task
+Terminei de pagar conta,complete_task
+Já fiz pagar conta,complete_task
+Marcar pagar conta como feita,complete_task
+Tarefa pagar conta concluída,complete_task
+Finalizei pagar conta,complete_task
+Marcar como pronto: pagar conta,complete_task
+Riscar pagar conta da lista,complete_task
+Dá um check em pagar conta,complete_task
+Completar ligar pro medico,complete_task
+Concluir ligar pro medico,complete_task
+Terminei de ligar pro medico,complete_task
+Já fiz ligar pro medico,complete_task
+Marcar ligar pro medico como feita,complete_task
+Tarefa ligar pro medico concluída,complete_task
+Finalizei ligar pro medico,complete_task
+Marcar como pronto: ligar pro medico,complete_task
+Riscar ligar pro medico da lista,complete_task
+Dá um check em ligar pro medico,complete_task
+Completar estudar python,complete_task
+Concluir estudar python,complete_task
+Terminei de estudar python,complete_task
+Já fiz estudar python,complete_task
+Marcar estudar python como feita,complete_task
+Tarefa estudar python concluída,complete_task
+Finalizei estudar python,complete_task
+Marcar como pronto: estudar python,complete_task
+Riscar estudar python da lista,complete_task
+Dá um check em estudar python,complete_task
+Completar fazer o relatorio,complete_task
+Concluir fazer o relatorio,complete_task
+Terminei de fazer o relatorio,complete_task
+Já fiz fazer o relatorio,complete_task
+Marcar fazer o relatorio como feita,complete_task
+Tarefa fazer o relatorio concluída,complete_task
+Finalizei fazer o relatorio,complete_task
+Marcar como pronto: fazer o relatorio,complete_task
+Riscar fazer o relatorio da lista,complete_task
+Dá um check em fazer o relatorio,complete_task
+Completar lavar o carro,complete_task
+Concluir lavar o carro,complete_task
+Terminei de lavar o carro,complete_task
+Já fiz lavar o carro,complete_task
+Marcar lavar o carro como feita,complete_task
+Tarefa lavar o carro concluída,complete_task
+Finalizei lavar o carro,complete_task
+Marcar como pronto: lavar o carro,complete_task
+Riscar lavar o carro da lista,complete_task
+Dá um check em lavar o carro,complete_task
+Completar passear com cachorro,complete_task
+Concluir passear com cachorro,complete_task
+Terminei de passear com cachorro,complete_task
+Já fiz passear com cachorro,complete_task
+Marcar passear com cachorro como feita,complete_task
+Tarefa passear com cachorro concluída,complete_task
+Finalizei passear com cachorro,complete_task
+Marcar como pronto: passear com cachorro,complete_task
+Riscar passear com cachorro da lista,complete_task
+Dá um check em passear com cachorro,complete_task
+Completar comprar leite,complete_task
+Concluir comprar leite,complete_task
+Terminei de comprar leite,complete_task
+Já fiz comprar leite,complete_task
+Marcar comprar leite como feita,complete_task
+Tarefa comprar leite concluída,complete_task
+Finalizei comprar leite,complete_task
+Marcar como pronto: comprar leite,complete_task
+Riscar comprar leite da lista,complete_task
+Dá um check em comprar leite,complete_task
+Completar arrumar o quarto,complete_task
+Concluir arrumar o quarto,complete_task
+Terminei de arrumar o quarto,complete_task
+Já fiz arrumar o quarto,complete_task
+Marcar arrumar o quarto como feita,complete_task
+Tarefa arrumar o quarto concluída,complete_task
+Finalizei arrumar o quarto,complete_task
+Marcar como pronto: arrumar o quarto,complete_task
+Riscar arrumar o quarto da lista,complete_task
+Dá um check em arrumar o quarto,complete_task
+Completar ler um livro,complete_task
+Concluir ler um livro,complete_task
+Terminei de ler um livro,complete_task
+Já fiz ler um livro,complete_task
+Marcar ler um livro como feita,complete_task
+Tarefa ler um livro concluída,complete_task
+Finalizei ler um livro,complete_task
+Marcar como pronto: ler um livro,complete_task
+Riscar ler um livro da lista,complete_task
+Dá um check em ler um livro,complete_task
+Completar ir ao mercado,complete_task
+Concluir ir ao mercado,complete_task
+Terminei de ir ao mercado,complete_task
+Já fiz ir ao mercado,complete_task
+Marcar ir ao mercado como feita,complete_task
+Tarefa ir ao mercado concluída,complete_task
+Finalizei ir ao mercado,complete_task
+Marcar como pronto: ir ao mercado,complete_task
+Riscar ir ao mercado da lista,complete_task
+Dá um check em ir ao mercado,complete_task
+Completar fazer exercicios,complete_task
+Concluir fazer exercicios,complete_task
+Terminei de fazer exercicios,complete_task
+Já fiz fazer exercicios,complete_task
+Marcar fazer exercicios como feita,complete_task
+Tarefa fazer exercicios concluída,complete_task
+Finalizei fazer exercicios,complete_task
+Marcar como pronto: fazer exercicios,complete_task
+Riscar fazer exercicios da lista,complete_task
+Dá um check em fazer exercicios,complete_task
+Completar enviar email,complete_task
+Concluir enviar email,complete_task
+Terminei de enviar email,complete_task
+Já fiz enviar email,complete_task
+Marcar enviar email como feita,complete_task
+Tarefa enviar email concluída,complete_task
+Finalizei enviar email,complete_task
+Marcar como pronto: enviar email,complete_task
+Riscar enviar email da lista,complete_task
+Dá um check em enviar email,complete_task
+Completar limpar a casa,complete_task
+Concluir limpar a casa,complete_task
+Terminei de limpar a casa,complete_task
+Já fiz limpar a casa,complete_task
+Marcar limpar a casa como feita,complete_task
+Tarefa limpar a casa concluída,complete_task
+Finalizei limpar a casa,complete_task
+Marcar como pronto: limpar a casa,complete_task
+Riscar limpar a casa da lista,complete_task
+Dá um check em limpar a casa,complete_task
+Completar fazer o jantar,complete_task
+Concluir fazer o jantar,complete_task
+Terminei de fazer o jantar,complete_task
+Já fiz fazer o jantar,complete_task
+Marcar fazer o jantar como feita,complete_task
+Tarefa fazer o jantar concluída,complete_task
+Finalizei fazer o jantar,complete_task
+Marcar como pronto: fazer o jantar,complete_task
+Riscar fazer o jantar da lista,complete_task
+Dá um check em fazer o jantar,complete_task
+Completar comprar presente,complete_task
+Concluir comprar presente,complete_task
+Terminei de comprar presente,complete_task
+Já fiz comprar presente,complete_task
+Marcar comprar presente como feita,complete_task
+Tarefa comprar presente concluída,complete_task
+Finalizei comprar presente,complete_task
+Marcar como pronto: comprar presente,complete_task
+Riscar comprar presente da lista,complete_task
+Dá um check em comprar presente,complete_task
+Completar reservar restaurante,complete_task
+Concluir reservar restaurante,complete_task
+Terminei de reservar restaurante,complete_task
+Já fiz reservar restaurante,complete_task
+Marcar reservar restaurante como feita,complete_task
+Tarefa reservar restaurante concluída,complete_task
+Finalizei reservar restaurante,complete_task
+Marcar como pronto: reservar restaurante,complete_task
+Riscar reservar restaurante da lista,complete_task
+Dá um check em reservar restaurante,complete_task
+Completar cancelar assinatura,complete_task
+Concluir cancelar assinatura,complete_task
+Terminei de cancelar assinatura,complete_task
+Já fiz cancelar assinatura,complete_task
+Marcar cancelar assinatura como feita,complete_task
+Tarefa cancelar assinatura concluída,complete_task
+Finalizei cancelar assinatura,complete_task
+Marcar como pronto: cancelar assinatura,complete_task
+Riscar cancelar assinatura da lista,complete_task
+Dá um check em cancelar assinatura,complete_task
+Completar revisar codigo,complete_task
+Concluir revisar codigo,complete_task
+Terminei de revisar codigo,complete_task
+Já fiz revisar codigo,complete_task
+Marcar revisar codigo como feita,complete_task
+Tarefa revisar codigo concluída,complete_task
+Finalizei revisar codigo,complete_task
+Marcar como pronto: revisar codigo,complete_task
+Riscar revisar codigo da lista,complete_task
+Dá um check em revisar codigo,complete_task
+Completar treinar,complete_task
+Concluir treinar,complete_task
+Terminei de treinar,complete_task
+Já fiz treinar,complete_task
+Marcar treinar como feita,complete_task
+Tarefa treinar concluída,complete_task
+Finalizei treinar,complete_task
+Marcar como pronto: treinar,complete_task
+Riscar treinar da lista,complete_task
+Dá um check em treinar,complete_task
+Editar tarefa comprar pão,edit_task
+Modificar comprar pão,edit_task
+Alterar comprar pão,edit_task
+Mudar a tarefa comprar pão,edit_task
+Corrigir comprar pão,edit_task
+Edita a tarefa de comprar pão,edit_task
+Quero alterar comprar pão,edit_task
+Mudar detalhes de comprar pão,edit_task
+Atualizar comprar pão,edit_task
+Refazer comprar pão,edit_task
+Editar tarefa pagar conta,edit_task
+Modificar pagar conta,edit_task
+Alterar pagar conta,edit_task
+Mudar a tarefa pagar conta,edit_task
+Corrigir pagar conta,edit_task
+Edita a tarefa de pagar conta,edit_task
+Quero alterar pagar conta,edit_task
+Mudar detalhes de pagar conta,edit_task
+Atualizar pagar conta,edit_task
+Refazer pagar conta,edit_task
+Editar tarefa ligar pro medico,edit_task
+Modificar ligar pro medico,edit_task
+Alterar ligar pro medico,edit_task
+Mudar a tarefa ligar pro medico,edit_task
+Corrigir ligar pro medico,edit_task
+Edita a tarefa de ligar pro medico,edit_task
+Quero alterar ligar pro medico,edit_task
+Mudar detalhes de ligar pro medico,edit_task
+Atualizar ligar pro medico,edit_task
+Refazer ligar pro medico,edit_task
+Editar tarefa estudar python,edit_task
+Modificar estudar python,edit_task
+Alterar estudar python,edit_task
+Mudar a tarefa estudar python,edit_task
+Corrigir estudar python,edit_task
+Edita a tarefa de estudar python,edit_task
+Quero alterar estudar python,edit_task
+Mudar detalhes de estudar python,edit_task
+Atualizar estudar python,edit_task
+Refazer estudar python,edit_task
+Editar tarefa fazer o relatorio,edit_task
+Modificar fazer o relatorio,edit_task
+Alterar fazer o relatorio,edit_task
+Mudar a tarefa fazer o relatorio,edit_task
+Corrigir fazer o relatorio,edit_task
+Edita a tarefa de fazer o relatorio,edit_task
+Quero alterar fazer o relatorio,edit_task
+Mudar detalhes de fazer o relatorio,edit_task
+Atualizar fazer o relatorio,edit_task
+Refazer fazer o relatorio,edit_task
+Editar tarefa lavar o carro,edit_task
+Modificar lavar o carro,edit_task
+Alterar lavar o carro,edit_task
+Mudar a tarefa lavar o carro,edit_task
+Corrigir lavar o carro,edit_task
+Edita a tarefa de lavar o carro,edit_task
+Quero alterar lavar o carro,edit_task
+Mudar detalhes de lavar o carro,edit_task
+Atualizar lavar o carro,edit_task
+Refazer lavar o carro,edit_task
+Editar tarefa passear com cachorro,edit_task
+Modificar passear com cachorro,edit_task
+Alterar passear com cachorro,edit_task
+Mudar a tarefa passear com cachorro,edit_task
+Corrigir passear com cachorro,edit_task
+Edita a tarefa de passear com cachorro,edit_task
+Quero alterar passear com cachorro,edit_task
+Mudar detalhes de passear com cachorro,edit_task
+Atualizar passear com cachorro,edit_task
+Refazer passear com cachorro,edit_task
+Editar tarefa comprar leite,edit_task
+Modificar comprar leite,edit_task
+Alterar comprar leite,edit_task
+Mudar a tarefa comprar leite,edit_task
+Corrigir comprar leite,edit_task
+Edita a tarefa de comprar leite,edit_task
+Quero alterar comprar leite,edit_task
+Mudar detalhes de comprar leite,edit_task
+Atualizar comprar leite,edit_task
+Refazer comprar leite,edit_task
+Editar tarefa arrumar o quarto,edit_task
+Modificar arrumar o quarto,edit_task
+Alterar arrumar o quarto,edit_task
+Mudar a tarefa arrumar o quarto,edit_task
+Corrigir arrumar o quarto,edit_task
+Edita a tarefa de arrumar o quarto,edit_task
+Quero alterar arrumar o quarto,edit_task
+Mudar detalhes de arrumar o quarto,edit_task
+Atualizar arrumar o quarto,edit_task
+Refazer arrumar o quarto,edit_task
+Editar tarefa ler um livro,edit_task
+Modificar ler um livro,edit_task
+Alterar ler um livro,edit_task
+Mudar a tarefa ler um livro,edit_task
+Corrigir ler um livro,edit_task
+Edita a tarefa de ler um livro,edit_task
+Quero alterar ler um livro,edit_task
+Mudar detalhes de ler um livro,edit_task
+Atualizar ler um livro,edit_task
+Refazer ler um livro,edit_task
+Editar tarefa ir ao mercado,edit_task
+Modificar ir ao mercado,edit_task
+Alterar ir ao mercado,edit_task
+Mudar a tarefa ir ao mercado,edit_task
+Corrigir ir ao mercado,edit_task
+Edita a tarefa de ir ao mercado,edit_task
+Quero alterar ir ao mercado,edit_task
+Mudar detalhes de ir ao mercado,edit_task
+Atualizar ir ao mercado,edit_task
+Refazer ir ao mercado,edit_task
+Editar tarefa fazer exercicios,edit_task
+Modificar fazer exercicios,edit_task
+Alterar fazer exercicios,edit_task
+Mudar a tarefa fazer exercicios,edit_task
+Corrigir fazer exercicios,edit_task
+Edita a tarefa de fazer exercicios,edit_task
+Quero alterar fazer exercicios,edit_task
+Mudar detalhes de fazer exercicios,edit_task
+Atualizar fazer exercicios,edit_task
+Refazer fazer exercicios,edit_task
+Editar tarefa enviar email,edit_task
+Modificar enviar email,edit_task
+Alterar enviar email,edit_task
+Mudar a tarefa enviar email,edit_task
+Corrigir enviar email,edit_task
+Edita a tarefa de enviar email,edit_task
+Quero alterar enviar email,edit_task
+Mudar detalhes de enviar email,edit_task
+Atualizar enviar email,edit_task
+Refazer enviar email,edit_task
+Editar tarefa limpar a casa,edit_task
+Modificar limpar a casa,edit_task
+Alterar limpar a casa,edit_task
+Mudar a tarefa limpar a casa,edit_task
+Corrigir limpar a casa,edit_task
+Edita a tarefa de limpar a casa,edit_task
+Quero alterar limpar a casa,edit_task
+Mudar detalhes de limpar a casa,edit_task
+Atualizar limpar a casa,edit_task
+Refazer limpar a casa,edit_task
+Editar tarefa fazer o jantar,edit_task
+Modificar fazer o jantar,edit_task
+Alterar fazer o jantar,edit_task
+Mudar a tarefa fazer o jantar,edit_task
+Corrigir fazer o jantar,edit_task
+Edita a tarefa de fazer o jantar,edit_task
+Quero alterar fazer o jantar,edit_task
+Mudar detalhes de fazer o jantar,edit_task
+Atualizar fazer o jantar,edit_task
+Refazer fazer o jantar,edit_task
+Editar tarefa comprar presente,edit_task
+Modificar comprar presente,edit_task
+Alterar comprar presente,edit_task
+Mudar a tarefa comprar presente,edit_task
+Corrigir comprar presente,edit_task
+Edita a tarefa de comprar presente,edit_task
+Quero alterar comprar presente,edit_task
+Mudar detalhes de comprar presente,edit_task
+Atualizar comprar presente,edit_task
+Refazer comprar presente,edit_task
+Editar tarefa reservar restaurante,edit_task
+Modificar reservar restaurante,edit_task
+Alterar reservar restaurante,edit_task
+Mudar a tarefa reservar restaurante,edit_task
+Corrigir reservar restaurante,edit_task
+Edita a tarefa de reservar restaurante,edit_task
+Quero alterar reservar restaurante,edit_task
+Mudar detalhes de reservar restaurante,edit_task
+Atualizar reservar restaurante,edit_task
+Refazer reservar restaurante,edit_task
+Editar tarefa cancelar assinatura,edit_task
+Modificar cancelar assinatura,edit_task
+Alterar cancelar assinatura,edit_task
+Mudar a tarefa cancelar assinatura,edit_task
+Corrigir cancelar assinatura,edit_task
+Edita a tarefa de cancelar assinatura,edit_task
+Quero alterar cancelar assinatura,edit_task
+Mudar detalhes de cancelar assinatura,edit_task
+Atualizar cancelar assinatura,edit_task
+Refazer cancelar assinatura,edit_task
+Editar tarefa revisar codigo,edit_task
+Modificar revisar codigo,edit_task
+Alterar revisar codigo,edit_task
+Mudar a tarefa revisar codigo,edit_task
+Corrigir revisar codigo,edit_task
+Edita a tarefa de revisar codigo,edit_task
+Quero alterar revisar codigo,edit_task
+Mudar detalhes de revisar codigo,edit_task
+Atualizar revisar codigo,edit_task
+Refazer revisar codigo,edit_task
+Editar tarefa treinar,edit_task
+Modificar treinar,edit_task
+Alterar treinar,edit_task
+Mudar a tarefa treinar,edit_task
+Corrigir treinar,edit_task
+Edita a tarefa de treinar,edit_task
+Quero alterar treinar,edit_task
+Mudar detalhes de treinar,edit_task
+Atualizar treinar,edit_task
+Refazer treinar,edit_task
+Mudar a prioridade de comprar pão,change_priority
+Aumentar a prioridade de comprar pão,change_priority
+Prioridade alta para comprar pão,change_priority
+Colocar comprar pão como urgente,change_priority
+Diminuir a prioridade de comprar pão,change_priority
+Prioridade baixa para comprar pão,change_priority
+Alterar prioridade de comprar pão,change_priority
+Marcar comprar pão como importante,change_priority
+comprar pão é prioridade agora,change_priority
+Atualiza a prioridade de comprar pão,change_priority
+Mudar a prioridade de pagar conta,change_priority
+Aumentar a prioridade de pagar conta,change_priority
+Prioridade alta para pagar conta,change_priority
+Colocar pagar conta como urgente,change_priority
+Diminuir a prioridade de pagar conta,change_priority
+Prioridade baixa para pagar conta,change_priority
+Alterar prioridade de pagar conta,change_priority
+Marcar pagar conta como importante,change_priority
+pagar conta é prioridade agora,change_priority
+Atualiza a prioridade de pagar conta,change_priority
+Mudar a prioridade de ligar pro medico,change_priority
+Aumentar a prioridade de ligar pro medico,change_priority
+Prioridade alta para ligar pro medico,change_priority
+Colocar ligar pro medico como urgente,change_priority
+Diminuir a prioridade de ligar pro medico,change_priority
+Prioridade baixa para ligar pro medico,change_priority
+Alterar prioridade de ligar pro medico,change_priority
+Marcar ligar pro medico como importante,change_priority
+ligar pro medico é prioridade agora,change_priority
+Atualiza a prioridade de ligar pro medico,change_priority
+Mudar a prioridade de estudar python,change_priority
+Aumentar a prioridade de estudar python,change_priority
+Prioridade alta para estudar python,change_priority
+Colocar estudar python como urgente,change_priority
+Diminuir a prioridade de estudar python,change_priority
+Prioridade baixa para estudar python,change_priority
+Alterar prioridade de estudar python,change_priority
+Marcar estudar python como importante,change_priority
+estudar python é prioridade agora,change_priority
+Atualiza a prioridade de estudar python,change_priority
+Mudar a prioridade de fazer o relatorio,change_priority
+Aumentar a prioridade de fazer o relatorio,change_priority
+Prioridade alta para fazer o relatorio,change_priority
+Colocar fazer o relatorio como urgente,change_priority
+Diminuir a prioridade de fazer o relatorio,change_priority
+Prioridade baixa para fazer o relatorio,change_priority
+Alterar prioridade de fazer o relatorio,change_priority
+Marcar fazer o relatorio como importante,change_priority
+fazer o relatorio é prioridade agora,change_priority
+Atualiza a prioridade de fazer o relatorio,change_priority
+Mudar a prioridade de lavar o carro,change_priority
+Aumentar a prioridade de lavar o carro,change_priority
+Prioridade alta para lavar o carro,change_priority
+Colocar lavar o carro como urgente,change_priority
+Diminuir a prioridade de lavar o carro,change_priority
+Prioridade baixa para lavar o carro,change_priority
+Alterar prioridade de lavar o carro,change_priority
+Marcar lavar o carro como importante,change_priority
+lavar o carro é prioridade agora,change_priority
+Atualiza a prioridade de lavar o carro,change_priority
+Mudar a prioridade de passear com cachorro,change_priority
+Aumentar a prioridade de passear com cachorro,change_priority
+Prioridade alta para passear com cachorro,change_priority
+Colocar passear com cachorro como urgente,change_priority
+Diminuir a prioridade de passear com cachorro,change_priority
+Prioridade baixa para passear com cachorro,change_priority
+Alterar prioridade de passear com cachorro,change_priority
+Marcar passear com cachorro como importante,change_priority
+passear com cachorro é prioridade agora,change_priority
+Atualiza a prioridade de passear com cachorro,change_priority
+Mudar a prioridade de comprar leite,change_priority
+Aumentar a prioridade de comprar leite,change_priority
+Prioridade alta para comprar leite,change_priority
+Colocar comprar leite como urgente,change_priority
+Diminuir a prioridade de comprar leite,change_priority
+Prioridade baixa para comprar leite,change_priority
+Alterar prioridade de comprar leite,change_priority
+Marcar comprar leite como importante,change_priority
+comprar leite é prioridade agora,change_priority
+Atualiza a prioridade de comprar leite,change_priority
+Mudar a prioridade de arrumar o quarto,change_priority
+Aumentar a prioridade de arrumar o quarto,change_priority
+Prioridade alta para arrumar o quarto,change_priority
+Colocar arrumar o quarto como urgente,change_priority
+Diminuir a prioridade de arrumar o quarto,change_priority
+Prioridade baixa para arrumar o quarto,change_priority
+Alterar prioridade de arrumar o quarto,change_priority
+Marcar arrumar o quarto como importante,change_priority
+arrumar o quarto é prioridade agora,change_priority
+Atualiza a prioridade de arrumar o quarto,change_priority
+Mudar a prioridade de ler um livro,change_priority
+Aumentar a prioridade de ler um livro,change_priority
+Prioridade alta para ler um livro,change_priority
+Colocar ler um livro como urgente,change_priority
+Diminuir a prioridade de ler um livro,change_priority
+Prioridade baixa para ler um livro,change_priority
+Alterar prioridade de ler um livro,change_priority
+Marcar ler um livro como importante,change_priority
+ler um livro é prioridade agora,change_priority
+Atualiza a prioridade de ler um livro,change_priority
+Mudar a prioridade de ir ao mercado,change_priority
+Aumentar a prioridade de ir ao mercado,change_priority
+Prioridade alta para ir ao mercado,change_priority
+Colocar ir ao mercado como urgente,change_priority
+Diminuir a prioridade de ir ao mercado,change_priority
+Prioridade baixa para ir ao mercado,change_priority
+Alterar prioridade de ir ao mercado,change_priority
+Marcar ir ao mercado como importante,change_priority
+ir ao mercado é prioridade agora,change_priority
+Atualiza a prioridade de ir ao mercado,change_priority
+Mudar a prioridade de fazer exercicios,change_priority
+Aumentar a prioridade de fazer exercicios,change_priority
+Prioridade alta para fazer exercicios,change_priority
+Colocar fazer exercicios como urgente,change_priority
+Diminuir a prioridade de fazer exercicios,change_priority
+Prioridade baixa para fazer exercicios,change_priority
+Alterar prioridade de fazer exercicios,change_priority
+Marcar fazer exercicios como importante,change_priority
+fazer exercicios é prioridade agora,change_priority
+Atualiza a prioridade de fazer exercicios,change_priority
+Mudar a prioridade de enviar email,change_priority
+Aumentar a prioridade de enviar email,change_priority
+Prioridade alta para enviar email,change_priority
+Colocar enviar email como urgente,change_priority
+Diminuir a prioridade de enviar email,change_priority
+Prioridade baixa para enviar email,change_priority
+Alterar prioridade de enviar email,change_priority
+Marcar enviar email como importante,change_priority
+enviar email é prioridade agora,change_priority
+Atualiza a prioridade de enviar email,change_priority
+Mudar a prioridade de limpar a casa,change_priority
+Aumentar a prioridade de limpar a casa,change_priority
+Prioridade alta para limpar a casa,change_priority
+Colocar limpar a casa como urgente,change_priority
+Diminuir a prioridade de limpar a casa,change_priority
+Prioridade baixa para limpar a casa,change_priority
+Alterar prioridade de limpar a casa,change_priority
+Marcar limpar a casa como importante,change_priority
+limpar a casa é prioridade agora,change_priority
+Atualiza a prioridade de limpar a casa,change_priority
+Mudar a prioridade de fazer o jantar,change_priority
+Aumentar a prioridade de fazer o jantar,change_priority
+Prioridade alta para fazer o jantar,change_priority
+Colocar fazer o jantar como urgente,change_priority
+Diminuir a prioridade de fazer o jantar,change_priority
+Prioridade baixa para fazer o jantar,change_priority
+Alterar prioridade de fazer o jantar,change_priority
+Marcar fazer o jantar como importante,change_priority
+fazer o jantar é prioridade agora,change_priority
+Atualiza a prioridade de fazer o jantar,change_priority
+Mudar a prioridade de comprar presente,change_priority
+Aumentar a prioridade de comprar presente,change_priority
+Prioridade alta para comprar presente,change_priority
+Colocar comprar presente como urgente,change_priority
+Diminuir a prioridade de comprar presente,change_priority
+Prioridade baixa para comprar presente,change_priority
+Alterar prioridade de comprar presente,change_priority
+Marcar comprar presente como importante,change_priority
+comprar presente é prioridade agora,change_priority
+Atualiza a prioridade de comprar presente,change_priority
+Mudar a prioridade de reservar restaurante,change_priority
+Aumentar a prioridade de reservar restaurante,change_priority
+Prioridade alta para reservar restaurante,change_priority
+Colocar reservar restaurante como urgente,change_priority
+Diminuir a prioridade de reservar restaurante,change_priority
+Prioridade baixa para reservar restaurante,change_priority
+Alterar prioridade de reservar restaurante,change_priority
+Marcar reservar restaurante como importante,change_priority
+reservar restaurante é prioridade agora,change_priority
+Atualiza a prioridade de reservar restaurante,change_priority
+Mudar a prioridade de cancelar assinatura,change_priority
+Aumentar a prioridade de cancelar assinatura,change_priority
+Prioridade alta para cancelar assinatura,change_priority
+Colocar cancelar assinatura como urgente,change_priority
+Diminuir a prioridade de cancelar assinatura,change_priority
+Prioridade baixa para cancelar assinatura,change_priority
+Alterar prioridade de cancelar assinatura,change_priority
+Marcar cancelar assinatura como importante,change_priority
+cancelar assinatura é prioridade agora,change_priority
+Atualiza a prioridade de cancelar assinatura,change_priority
+Mudar a prioridade de revisar codigo,change_priority
+Aumentar a prioridade de revisar codigo,change_priority
+Prioridade alta para revisar codigo,change_priority
+Colocar revisar codigo como urgente,change_priority
+Diminuir a prioridade de revisar codigo,change_priority
+Prioridade baixa para revisar codigo,change_priority
+Alterar prioridade de revisar codigo,change_priority
+Marcar revisar codigo como importante,change_priority
+revisar codigo é prioridade agora,change_priority
+Atualiza a prioridade de revisar codigo,change_priority
+Mudar a prioridade de treinar,change_priority
+Aumentar a prioridade de treinar,change_priority
+Prioridade alta para treinar,change_priority
+Colocar treinar como urgente,change_priority
+Diminuir a prioridade de treinar,change_priority
+Prioridade baixa para treinar,change_priority
+Alterar prioridade de treinar,change_priority
+Marcar treinar como importante,change_priority
+treinar é prioridade agora,change_priority
+Atualiza a prioridade de treinar,change_priority
+Listar tarefas,list_tasks
+Mostrar tarefas,list_tasks
+Ver tarefas,list_tasks
+O que tenho para fazer,list_tasks
+Quais sao as tarefas,list_tasks
+Lista de tarefas,list_tasks
+Exibir tarefas,list_tasks
+Minhas pendencias,list_tasks
+Me mostre as tarefas,list_tasks
+Ler tarefas,list_tasks
+Mostrar minha lista,list_tasks
+O que tem pra hoje,list_tasks
+Tarefas pendentes,list_tasks
+Tem alguma tarefa,list_tasks
+Ver afazeres,list_tasks
+Diz minhas tarefas,list_tasks
+Listar tudo,list_tasks
+Mostrar afazeres,list_tasks
+Mostrar tudo,list_tasks
+O que eu tenho para fazer,list_tasks
+Listar tarefas de hoje,list_tasks
+Mostrar tarefas de hoje,list_tasks
+Ver tarefas de hoje,list_tasks
+O que tenho para fazer de hoje,list_tasks
+Quais sao as tarefas de hoje,list_tasks
+Lista de tarefas de hoje,list_tasks
+Exibir tarefas de hoje,list_tasks
+Minhas pendencias de hoje,list_tasks
+Me mostre as tarefas de hoje,list_tasks
+Ler tarefas de hoje,list_tasks
+Mostrar minha lista de hoje,list_tasks
+O que tem pra hoje de hoje,list_tasks
+Tarefas pendentes de hoje,list_tasks
+Tem alguma tarefa de hoje,list_tasks
+Ver afazeres de hoje,list_tasks
+Diz minhas tarefas de hoje,list_tasks
+Listar tudo de hoje,list_tasks
+Mostrar afazeres de hoje,list_tasks
+Mostrar tudo de hoje,list_tasks
+O que eu tenho para fazer de hoje,list_tasks
+Listar tarefas de amanha,list_tasks
+Mostrar tarefas de amanha,list_tasks
+Ver tarefas de amanha,list_tasks
+O que tenho para fazer de amanha,list_tasks
+Quais sao as tarefas de amanha,list_tasks
+Lista de tarefas de amanha,list_tasks
+Exibir tarefas de amanha,list_tasks
+Minhas pendencias de amanha,list_tasks
+Me mostre as tarefas de amanha,list_tasks
+Ler tarefas de amanha,list_tasks
+Mostrar minha lista de amanha,list_tasks
+O que tem pra hoje de amanha,list_tasks
+Tarefas pendentes de amanha,list_tasks
+Tem alguma tarefa de amanha,list_tasks
+Ver afazeres de amanha,list_tasks
+Diz minhas tarefas de amanha,list_tasks
+Listar tudo de amanha,list_tasks
+Mostrar afazeres de amanha,list_tasks
+Mostrar tudo de amanha,list_tasks
+O que eu tenho para fazer de amanha,list_tasks
+Listar tarefas pendentes,list_tasks
+Mostrar tarefas pendentes,list_tasks
+Ver tarefas pendentes,list_tasks
+O que tenho para fazer pendentes,list_tasks
+Quais sao as tarefas pendentes,list_tasks
+Lista de tarefas pendentes,list_tasks
+Exibir tarefas pendentes,list_tasks
+Minhas pendencias pendentes,list_tasks
+Me mostre as tarefas pendentes,list_tasks
+Ler tarefas pendentes,list_tasks
+Mostrar minha lista pendentes,list_tasks
+O que tem pra hoje pendentes,list_tasks
+Tarefas pendentes pendentes,list_tasks
+Tem alguma tarefa pendentes,list_tasks
+Ver afazeres pendentes,list_tasks
+Diz minhas tarefas pendentes,list_tasks
+Listar tudo pendentes,list_tasks
+Mostrar afazeres pendentes,list_tasks
+Mostrar tudo pendentes,list_tasks
+O que eu tenho para fazer pendentes,list_tasks
+Listar tarefas urgentes,list_tasks
+Mostrar tarefas urgentes,list_tasks
+Ver tarefas urgentes,list_tasks
+O que tenho para fazer urgentes,list_tasks
+Quais sao as tarefas urgentes,list_tasks
+Lista de tarefas urgentes,list_tasks
+Exibir tarefas urgentes,list_tasks
+Minhas pendencias urgentes,list_tasks
+Me mostre as tarefas urgentes,list_tasks
+Ler tarefas urgentes,list_tasks
+Mostrar minha lista urgentes,list_tasks
+O que tem pra hoje urgentes,list_tasks
+Tarefas pendentes urgentes,list_tasks
+Tem alguma tarefa urgentes,list_tasks
+Ver afazeres urgentes,list_tasks
+Diz minhas tarefas urgentes,list_tasks
+Listar tudo urgentes,list_tasks
+Mostrar afazeres urgentes,list_tasks
+Mostrar tudo urgentes,list_tasks
+O que eu tenho para fazer urgentes,list_tasks
+Listar tarefas agora,list_tasks
+Mostrar tarefas agora,list_tasks
+Ver tarefas agora,list_tasks
+O que tenho para fazer agora,list_tasks
+Quais sao as tarefas agora,list_tasks
+Lista de tarefas agora,list_tasks
+Exibir tarefas agora,list_tasks
+Minhas pendencias agora,list_tasks
+Me mostre as tarefas agora,list_tasks
+Ler tarefas agora,list_tasks
+Mostrar minha lista agora,list_tasks
+O que tem pra hoje agora,list_tasks
+Tarefas pendentes agora,list_tasks
+Tem alguma tarefa agora,list_tasks
+Ver afazeres agora,list_tasks
+Diz minhas tarefas agora,list_tasks
+Listar tudo agora,list_tasks
+Mostrar afazeres agora,list_tasks
+Mostrar tudo agora,list_tasks
+O que eu tenho para fazer agora,list_tasks
+Listar tarefas por favor,list_tasks
+Mostrar tarefas por favor,list_tasks
+Ver tarefas por favor,list_tasks
+O que tenho para fazer por favor,list_tasks
+Quais sao as tarefas por favor,list_tasks
+Lista de tarefas por favor,list_tasks
+Exibir tarefas por favor,list_tasks
+Minhas pendencias por favor,list_tasks
+Me mostre as tarefas por favor,list_tasks
+Ler tarefas por favor,list_tasks
+Mostrar minha lista por favor,list_tasks
+O que tem pra hoje por favor,list_tasks
+Tarefas pendentes por favor,list_tasks
+Tem alguma tarefa por favor,list_tasks
+Ver afazeres por favor,list_tasks
+Diz minhas tarefas por favor,list_tasks
+Listar tudo por favor,list_tasks
+Mostrar afazeres por favor,list_tasks
+Mostrar tudo por favor,list_tasks
+O que eu tenho para fazer por favor,list_tasks
+Listar tarefas da semana,list_tasks
+Mostrar tarefas da semana,list_tasks
+Ver tarefas da semana,list_tasks
+O que tenho para fazer da semana,list_tasks
+Quais sao as tarefas da semana,list_tasks
+Lista de tarefas da semana,list_tasks
+Exibir tarefas da semana,list_tasks
+Minhas pendencias da semana,list_tasks
+Me mostre as tarefas da semana,list_tasks
+Ler tarefas da semana,list_tasks
+Mostrar minha lista da semana,list_tasks
+O que tem pra hoje da semana,list_tasks
+Tarefas pendentes da semana,list_tasks
+Tem alguma tarefa da semana,list_tasks
+Ver afazeres da semana,list_tasks
+Diz minhas tarefas da semana,list_tasks
+Listar tudo da semana,list_tasks
+Mostrar afazeres da semana,list_tasks
+Mostrar tudo da semana,list_tasks
+O que eu tenho para fazer da semana,list_tasks
+Listar tarefas ativas,list_tasks
+Mostrar tarefas ativas,list_tasks
+Ver tarefas ativas,list_tasks
+O que tenho para fazer ativas,list_tasks
+Quais sao as tarefas ativas,list_tasks
+Lista de tarefas ativas,list_tasks
+Exibir tarefas ativas,list_tasks
+Minhas pendencias ativas,list_tasks
+Me mostre as tarefas ativas,list_tasks
+Ler tarefas ativas,list_tasks
+Mostrar minha lista ativas,list_tasks
+O que tem pra hoje ativas,list_tasks
+Tarefas pendentes ativas,list_tasks
+Tem alguma tarefa ativas,list_tasks
+Ver afazeres ativas,list_tasks
+Diz minhas tarefas ativas,list_tasks
+Listar tudo ativas,list_tasks
+Mostrar afazeres ativas,list_tasks
+Mostrar tudo ativas,list_tasks
+O que eu tenho para fazer ativas,list_tasks
+Listar tarefas para mim,list_tasks
+Mostrar tarefas para mim,list_tasks
+Ver tarefas para mim,list_tasks
+O que tenho para fazer para mim,list_tasks
+Quais sao as tarefas para mim,list_tasks
+Lista de tarefas para mim,list_tasks
+Exibir tarefas para mim,list_tasks
+Minhas pendencias para mim,list_tasks
+Me mostre as tarefas para mim,list_tasks
+Ler tarefas para mim,list_tasks
+Mostrar minha lista para mim,list_tasks
+O que tem pra hoje para mim,list_tasks
+Tarefas pendentes para mim,list_tasks
+Tem alguma tarefa para mim,list_tasks
+Ver afazeres para mim,list_tasks
+Diz minhas tarefas para mim,list_tasks
+Listar tudo para mim,list_tasks
+Mostrar afazeres para mim,list_tasks
+Mostrar tudo para mim,list_tasks
+O que eu tenho para fazer para mim,list_tasks
+Acordar,wake
+Despertar,wake
+Jarvis acorde,wake
+Iniciar,wake
+Pode me ouvir,wake
+Estou aqui,wake
+Vamos la,wake
+Hora de trabalhar,wake
+Ligar,wake
+Ativar,wake
+Oi,wake
+Ola,wake
+Bom dia,wake
+Boa tarde,wake
+Boa noite,wake
+Atencao,wake
+Ouvindo,wake
+Pode comecar,wake
+Assistente,wake
+Estou de volta,wake
+Acordar ai,wake
+Despertar ai,wake
+Jarvis acorde ai,wake
+Iniciar ai,wake
+Pode me ouvir ai,wake
+Estou aqui ai,wake
+Vamos la ai,wake
+Hora de trabalhar ai,wake
+Ligar ai,wake
+Ativar ai,wake
+Oi ai,wake
+Ola ai,wake
+Bom dia ai,wake
+Boa tarde ai,wake
+Boa noite ai,wake
+Atencao ai,wake
+Ouvindo ai,wake
+Pode comecar ai,wake
+Assistente ai,wake
+Estou de volta ai,wake
+Acordar agora,wake
+Despertar agora,wake
+Jarvis acorde agora,wake
+Iniciar agora,wake
+Pode me ouvir agora,wake
+Estou aqui agora,wake
+Vamos la agora,wake
+Hora de trabalhar agora,wake
+Ligar agora,wake
+Ativar agora,wake
+Oi agora,wake
+Ola agora,wake
+Bom dia agora,wake
+Boa tarde agora,wake
+Boa noite agora,wake
+Atencao agora,wake
+Ouvindo agora,wake
+Pode comecar agora,wake
+Assistente agora,wake
+Estou de volta agora,wake
+Acordar ja,wake
+Despertar ja,wake
+Jarvis acorde ja,wake
+Iniciar ja,wake
+Pode me ouvir ja,wake
+Estou aqui ja,wake
+Vamos la ja,wake
+Hora de trabalhar ja,wake
+Ligar ja,wake
+Ativar ja,wake
+Oi ja,wake
+Ola ja,wake
+Bom dia ja,wake
+Boa tarde ja,wake
+Boa noite ja,wake
+Atencao ja,wake
+Ouvindo ja,wake
+Pode comecar ja,wake
+Assistente ja,wake
+Estou de volta ja,wake
+Acordar por favor,wake
+Despertar por favor,wake
+Jarvis acorde por favor,wake
+Iniciar por favor,wake
+Pode me ouvir por favor,wake
+Estou aqui por favor,wake
+Vamos la por favor,wake
+Hora de trabalhar por favor,wake
+Ligar por favor,wake
+Ativar por favor,wake
+Oi por favor,wake
+Ola por favor,wake
+Bom dia por favor,wake
+Boa tarde por favor,wake
+Boa noite por favor,wake
+Atencao por favor,wake
+Ouvindo por favor,wake
+Pode comecar por favor,wake
+Assistente por favor,wake
+Estou de volta por favor,wake
+Acordar imediatamente,wake
+Despertar imediatamente,wake
+Jarvis acorde imediatamente,wake
+Iniciar imediatamente,wake
+Pode me ouvir imediatamente,wake
+Estou aqui imediatamente,wake
+Vamos la imediatamente,wake
+Hora de trabalhar imediatamente,wake
+Ligar imediatamente,wake
+Ativar imediatamente,wake
+Oi imediatamente,wake
+Ola imediatamente,wake
+Bom dia imediatamente,wake
+Boa tarde imediatamente,wake
+Boa noite imediatamente,wake
+Atencao imediatamente,wake
+Ouvindo imediatamente,wake
+Pode comecar imediatamente,wake
+Assistente imediatamente,wake
+Estou de volta imediatamente,wake
+Acordar meu assistente,wake
+Despertar meu assistente,wake
+Jarvis acorde meu assistente,wake
+Iniciar meu assistente,wake
+Pode me ouvir meu assistente,wake
+Estou aqui meu assistente,wake
+Vamos la meu assistente,wake
+Hora de trabalhar meu assistente,wake
+Ligar meu assistente,wake
+Ativar meu assistente,wake
+Oi meu assistente,wake
+Ola meu assistente,wake
+Bom dia meu assistente,wake
+Boa tarde meu assistente,wake
+Boa noite meu assistente,wake
+Atencao meu assistente,wake
+Ouvindo meu assistente,wake
+Pode comecar meu assistente,wake
+Assistente meu assistente,wake
+Estou de volta meu assistente,wake
+Acordar vamos,wake
+Despertar vamos,wake
+Jarvis acorde vamos,wake
+Iniciar vamos,wake
+Pode me ouvir vamos,wake
+Estou aqui vamos,wake
+Vamos la vamos,wake
+Hora de trabalhar vamos,wake
+Ligar vamos,wake
+Ativar vamos,wake
+Oi vamos,wake
+Ola vamos,wake
+Bom dia vamos,wake
+Boa tarde vamos,wake
+Boa noite vamos,wake
+Atencao vamos,wake
+Ouvindo vamos,wake
+Pode comecar vamos,wake
+Assistente vamos,wake
+Estou de volta vamos,wake
+Acordar Jarvis,wake
+Despertar Jarvis,wake
+Jarvis acorde Jarvis,wake
+Iniciar Jarvis,wake
+Pode me ouvir Jarvis,wake
+Estou aqui Jarvis,wake
+Vamos la Jarvis,wake
+Hora de trabalhar Jarvis,wake
+Ligar Jarvis,wake
+Ativar Jarvis,wake
+Oi Jarvis,wake
+Ola Jarvis,wake
+Bom dia Jarvis,wake
+Boa tarde Jarvis,wake
+Boa noite Jarvis,wake
+Atencao Jarvis,wake
+Ouvindo Jarvis,wake
+Pode comecar Jarvis,wake
+Assistente Jarvis,wake
+Estou de volta Jarvis,wake
+Acordar sistema,wake
+Despertar sistema,wake
+Jarvis acorde sistema,wake
+Iniciar sistema,wake
+Pode me ouvir sistema,wake
+Estou aqui sistema,wake
+Vamos la sistema,wake
+Hora de trabalhar sistema,wake
+Ligar sistema,wake
+Ativar sistema,wake
+Oi sistema,wake
+Ola sistema,wake
+Bom dia sistema,wake
+Boa tarde sistema,wake
+Boa noite sistema,wake
+Atencao sistema,wake
+Ouvindo sistema,wake
+Pode comecar sistema,wake
+Assistente sistema,wake
+Estou de volta sistema,wake
+Dormir,sleep
+Desligar,sleep
+Pausar,sleep
+Parar,sleep
+Silencio,sleep
+Fique quieto,sleep
+Ate logo,sleep
+Tchau,sleep
+Desativar,sleep
+Encerrar,sleep
+Pode dormir,sleep
+Va descansar,sleep
+Desligar o sistema,sleep
+Modo espera,sleep
+Pausa,sleep
+Suspender,sleep
+Chega por hoje,sleep
+Sair,sleep
+Adeus,sleep
+Fim,sleep
+Dormir agora,sleep
+Desligar agora,sleep
+Pausar agora,sleep
+Parar agora,sleep
+Silencio agora,sleep
+Fique quieto agora,sleep
+Ate logo agora,sleep
+Tchau agora,sleep
+Desativar agora,sleep
+Encerrar agora,sleep
+Pode dormir agora,sleep
+Va descansar agora,sleep
+Desligar o sistema agora,sleep
+Modo espera agora,sleep
+Pausa agora,sleep
+Suspender agora,sleep
+Chega por hoje agora,sleep
+Sair agora,sleep
+Adeus agora,sleep
+Fim agora,sleep
+Dormir ja,sleep
+Desligar ja,sleep
+Pausar ja,sleep
+Parar ja,sleep
+Silencio ja,sleep
+Fique quieto ja,sleep
+Ate logo ja,sleep
+Tchau ja,sleep
+Desativar ja,sleep
+Encerrar ja,sleep
+Pode dormir ja,sleep
+Va descansar ja,sleep
+Desligar o sistema ja,sleep
+Modo espera ja,sleep
+Pausa ja,sleep
+Suspender ja,sleep
+Chega por hoje ja,sleep
+Sair ja,sleep
+Adeus ja,sleep
+Fim ja,sleep
+Dormir por favor,sleep
+Desligar por favor,sleep
+Pausar por favor,sleep
+Parar por favor,sleep
+Silencio por favor,sleep
+Fique quieto por favor,sleep
+Ate logo por favor,sleep
+Tchau por favor,sleep
+Desativar por favor,sleep
+Encerrar por favor,sleep
+Pode dormir por favor,sleep
+Va descansar por favor,sleep
+Desligar o sistema por favor,sleep
+Modo espera por favor,sleep
+Pausa por favor,sleep
+Suspender por favor,sleep
+Chega por hoje por favor,sleep
+Sair por favor,sleep
+Adeus por favor,sleep
+Fim por favor,sleep
+Dormir descanse,sleep
+Desligar descanse,sleep
+Pausar descanse,sleep
+Parar descanse,sleep
+Silencio descanse,sleep
+Fique quieto descanse,sleep
+Ate logo descanse,sleep
+Tchau descanse,sleep
+Desativar descanse,sleep
+Encerrar descanse,sleep
+Pode dormir descanse,sleep
+Va descansar descanse,sleep
+Desligar o sistema descanse,sleep
+Modo espera descanse,sleep
+Pausa descanse,sleep
+Suspender descanse,sleep
+Chega por hoje descanse,sleep
+Sair descanse,sleep
+Adeus descanse,sleep
+Fim descanse,sleep
+Dormir Jarvis,sleep
+Desligar Jarvis,sleep
+Pausar Jarvis,sleep
+Parar Jarvis,sleep
+Silencio Jarvis,sleep
+Fique quieto Jarvis,sleep
+Ate logo Jarvis,sleep
+Tchau Jarvis,sleep
+Desativar Jarvis,sleep
+Encerrar Jarvis,sleep
+Pode dormir Jarvis,sleep
+Va descansar Jarvis,sleep
+Desligar o sistema Jarvis,sleep
+Modo espera Jarvis,sleep
+Pausa Jarvis,sleep
+Suspender Jarvis,sleep
+Chega por hoje Jarvis,sleep
+Sair Jarvis,sleep
+Adeus Jarvis,sleep
+Fim Jarvis,sleep
+Dormir sistema,sleep
+Desligar sistema,sleep
+Pausar sistema,sleep
+Parar sistema,sleep
+Silencio sistema,sleep
+Fique quieto sistema,sleep
+Ate logo sistema,sleep
+Tchau sistema,sleep
+Desativar sistema,sleep
+Encerrar sistema,sleep
+Pode dormir sistema,sleep
+Va descansar sistema,sleep
+Desligar o sistema sistema,sleep
+Modo espera sistema,sleep
+Pausa sistema,sleep
+Suspender sistema,sleep
+Chega por hoje sistema,sleep
+Sair sistema,sleep
+Adeus sistema,sleep
+Fim sistema,sleep
+Dormir ate mais,sleep
+Desligar ate mais,sleep
+Pausar ate mais,sleep
+Parar ate mais,sleep
+Silencio ate mais,sleep
+Fique quieto ate mais,sleep
+Ate logo ate mais,sleep
+Tchau ate mais,sleep
+Desativar ate mais,sleep
+Encerrar ate mais,sleep
+Pode dormir ate mais,sleep
+Va descansar ate mais,sleep
+Desligar o sistema ate mais,sleep
+Modo espera ate mais,sleep
+Pausa ate mais,sleep
+Suspender ate mais,sleep
+Chega por hoje ate mais,sleep
+Sair ate mais,sleep
+Adeus ate mais,sleep
+Fim ate mais,sleep
+Dormir logo,sleep
+Desligar logo,sleep
+Pausar logo,sleep
+Parar logo,sleep
+Silencio logo,sleep
+Fique quieto logo,sleep
+Ate logo logo,sleep
+Tchau logo,sleep
+Desativar logo,sleep
+Encerrar logo,sleep
+Pode dormir logo,sleep
+Va descansar logo,sleep
+Desligar o sistema logo,sleep
+Modo espera logo,sleep
+Pausa logo,sleep
+Suspender logo,sleep
+Chega por hoje logo,sleep
+Sair logo,sleep
+Adeus logo,sleep
+Fim logo,sleep
+Dormir um pouco,sleep
+Desligar um pouco,sleep
+Pausar um pouco,sleep
+Parar um pouco,sleep
+Silencio um pouco,sleep
+Fique quieto um pouco,sleep
+Ate logo um pouco,sleep
+Tchau um pouco,sleep
+Desativar um pouco,sleep
+Encerrar um pouco,sleep
+Pode dormir um pouco,sleep
+Va descansar um pouco,sleep
+Desligar o sistema um pouco,sleep
+Modo espera um pouco,sleep
+Pausa um pouco,sleep
+Suspender um pouco,sleep
+Chega por hoje um pouco,sleep
+Sair um pouco,sleep
+Adeus um pouco,sleep
+Fim um pouco,sleep
+
+crie a tarefa estudar python,add_task
+anotar ligar para o médico,add_task
+adicionar caminhar no parque com prioridade baixa,add_task
+crie a tarefa estudar Python com prioridade alta,add_task
+adicionar comprar pão,add_task
+Estudar para a prova,add_task
+deletar número 2,delete_task
+remover comprar café,delete_task
+apagar número 1,delete_task
+remover café,delete_task
+deletar a 1,delete_task
+deletar tarefa 1,delete_task
+concluir a 1,complete_task
+finalizar estudar python,complete_task
+riscar a 2,complete_task
+concluir número 2,complete_task
+concluir café,complete_task
+concluir a número 2,complete_task
+concluir a tarefa comprar café,complete_task
+mudar café para comprar leite,edit_task
+alterar 1 para estudar java,edit_task
+mudar número 2 para comprar bolo,edit_task
+alterar a 2 para comprar leite,edit_task
+mudar café para comprar café preto,edit_task
+1 com prioridade alta,change_priority
+número 2 como prioridade baixa,change_priority
+comprar pão com prioridade média,change_priority
+café com prioridade alta,change_priority
+quais são minhas tarefas,list_tasks
+o que tenho pra fazer,list_tasks
+listar tarefas,list_tasks
+ligar jar,wake
+olá jarvis,wake
+acordar jarvis,wake
+Ligar Jarvis,wake
+desligar jarvis,sleep
+dormir,sleep
+silenciar,sleep
+Desligar Jarvis,sleep
+crie a tarefa estudar python,add_task
+anotar ligar para o médico,add_task
+adicionar caminhar no parque com prioridade baixa,add_task
+crie a tarefa estudar Python com prioridade alta,add_task
+adicionar comprar pão,add_task
+Estudar para a prova,add_task
+deletar número 2,delete_task
+remover comprar café,delete_task
+apagar número 1,delete_task
+remover café,delete_task
+deletar a 1,delete_task
+deletar tarefa 1,delete_task
+concluir a 1,complete_task
+finalizar estudar python,complete_task
+riscar a 2,complete_task
+concluir número 2,complete_task
+concluir café,complete_task
+concluir a número 2,complete_task
+concluir a tarefa comprar café,complete_task
+mudar café para comprar leite,edit_task
+alterar 1 para estudar java,edit_task
+mudar número 2 para comprar bolo,edit_task
+alterar a 2 para comprar leite,edit_task
+mudar café para comprar café preto,edit_task
+1 com prioridade alta,change_priority
+número 2 como prioridade baixa,change_priority
+comprar pão com prioridade média,change_priority
+café com prioridade alta,change_priority
+quais são minhas tarefas,list_tasks
+o que tenho pra fazer,list_tasks
+listar tarefas,list_tasks
+ligar jar,wake
+olá jarvis,wake
+acordar jarvis,wake
+Ligar Jarvis,wake
+desligar jarvis,sleep
+dormir,sleep
+silenciar,sleep
+Desligar Jarvis,sleep
+crie a tarefa estudar python,add_task
+anotar ligar para o médico,add_task
+adicionar caminhar no parque com prioridade baixa,add_task
+crie a tarefa estudar Python com prioridade alta,add_task
+adicionar comprar pão,add_task
+Estudar para a prova,add_task
+deletar número 2,delete_task
+remover comprar café,delete_task
+apagar número 1,delete_task
+remover café,delete_task
+deletar a 1,delete_task
+deletar tarefa 1,delete_task
+concluir a 1,complete_task
+finalizar estudar python,complete_task
+riscar a 2,complete_task
+concluir número 2,complete_task
+concluir café,complete_task
+concluir a número 2,complete_task
+concluir a tarefa comprar café,complete_task
+mudar café para comprar leite,edit_task
+alterar 1 para estudar java,edit_task
+mudar número 2 para comprar bolo,edit_task
+alterar a 2 para comprar leite,edit_task
+mudar café para comprar café preto,edit_task
+1 com prioridade alta,change_priority
+número 2 como prioridade baixa,change_priority
+comprar pão com prioridade média,change_priority
+café com prioridade alta,change_priority
+quais são minhas tarefas,list_tasks
+o que tenho pra fazer,list_tasks
+listar tarefas,list_tasks
+ligar jar,wake
+olá jarvis,wake
+acordar jarvis,wake
+Ligar Jarvis,wake
+desligar jarvis,sleep
+dormir,sleep
+silenciar,sleep
+Desligar Jarvis,sleep
+crie a tarefa estudar python,add_task
+anotar ligar para o médico,add_task
+adicionar caminhar no parque com prioridade baixa,add_task
+crie a tarefa estudar Python com prioridade alta,add_task
+adicionar comprar pão,add_task
+Estudar para a prova,add_task
+deletar número 2,delete_task
+remover comprar café,delete_task
+apagar número 1,delete_task
+remover café,delete_task
+deletar a 1,delete_task
+deletar tarefa 1,delete_task
+concluir a 1,complete_task
+finalizar estudar python,complete_task
+riscar a 2,complete_task
+concluir número 2,complete_task
+concluir café,complete_task
+concluir a número 2,complete_task
+concluir a tarefa comprar café,complete_task
+mudar café para comprar leite,edit_task
+alterar 1 para estudar java,edit_task
+mudar número 2 para comprar bolo,edit_task
+alterar a 2 para comprar leite,edit_task
+mudar café para comprar café preto,edit_task
+1 com prioridade alta,change_priority
+número 2 como prioridade baixa,change_priority
+comprar pão com prioridade média,change_priority
+café com prioridade alta,change_priority
+quais são minhas tarefas,list_tasks
+o que tenho pra fazer,list_tasks
+listar tarefas,list_tasks
+ligar jar,wake
+olá jarvis,wake
+acordar jarvis,wake
+Ligar Jarvis,wake
+desligar jarvis,sleep
+dormir,sleep
+silenciar,sleep
+Desligar Jarvis,sleep
+crie a tarefa estudar python,add_task
+anotar ligar para o médico,add_task
+adicionar caminhar no parque com prioridade baixa,add_task
+crie a tarefa estudar Python com prioridade alta,add_task
+adicionar comprar pão,add_task
+Estudar para a prova,add_task
+deletar número 2,delete_task
+remover comprar café,delete_task
+apagar número 1,delete_task
+remover café,delete_task
+deletar a 1,delete_task
+deletar tarefa 1,delete_task
+concluir a 1,complete_task
+finalizar estudar python,complete_task
+riscar a 2,complete_task
+concluir número 2,complete_task
+concluir café,complete_task
+concluir a número 2,complete_task
+concluir a tarefa comprar café,complete_task
+mudar café para comprar leite,edit_task
+alterar 1 para estudar java,edit_task
+mudar número 2 para comprar bolo,edit_task
+alterar a 2 para comprar leite,edit_task
+mudar café para comprar café preto,edit_task
+1 com prioridade alta,change_priority
+número 2 como prioridade baixa,change_priority
+comprar pão com prioridade média,change_priority
+café com prioridade alta,change_priority
+quais são minhas tarefas,list_tasks
+o que tenho pra fazer,list_tasks
+listar tarefas,list_tasks
+ligar jar,wake
+olá jarvis,wake
+acordar jarvis,wake
+Ligar Jarvis,wake
+desligar jarvis,sleep
+dormir,sleep
+silenciar,sleep
+Desligar Jarvis,sleep

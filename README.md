@@ -6,111 +6,122 @@
 [![AI Engine](https://img.shields.io/badge/AI-Gemini%201.5%20Flash-cyan.svg)](https://ai.google.dev/)
 [![License](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://choosealicense.com/licenses/mit/)
 
-O **Jarvis Task Assistant** é um aplicativo desktop de notas e gerenciamento de tarefas minimalista, projetado para funcionar como um widget de alta performance no estilo "Post-it". Ele combina uma interface gráfica moderna e escura (CustomTkinter) com um assistente de voz em segundo plano (SpeechRecognition e fala offline SAPI5/pyttsx3) e respostas inteligentes integradas com a API do Gemini.
+O **Jarvis Task Assistant** é um aplicativo desktop de anotações e gerenciamento de tarefas minimalista e super-rápido, projetado para funcionar como um widget de alta performance no estilo "Post-it". Ele combina uma interface gráfica moderna e escura (CustomTkinter) com um **assistente de voz nativo** que utiliza modelos locais de inteligência artificial (Faster-Whisper) e Machine Learning customizado.
 
 ---
 
-## ✨ Principais Funcionalidades
+## 🌟 O Que o Jarvis Pode Fazer? (Comandos)
 
-*   **🎙️ Controle de Voz Inteligente (*Fuzzy*):** Palavras de ativação aproximadas (*"Ligar Jarvis"*, *"Olá Jar"*, *"Acordar Jarvis"*) ligam a escuta contínua. O indicador visual no cabeçalho sinaliza o status ativo (azul ciano) ou inativo (cinza).
-*   **🔢 Comandos de Voz Baseados em Índices:** Permite concluir, excluir ou editar notas falando o número de exibição atual da tela (ex: *"Concluir a tarefa número 2"*, *"Apagar a 1"*), com remoção inteligente de múltiplos prefixos encadeados.
-*   **✎ Edição Manual Inline:** Cards de tarefas dinâmicos com botão de lápis `✎`. Permite editar textos e prioridades inline com atalhos intuitivos de teclado (`Enter` para salvar, `Esc` para cancelar).
-*   **⚙️ Sincronização e Bloqueio Concorrente:** Durante a digitação manual, o app bloqueia temporariamente atualizações de tela por comandos de voz, garantindo que o seu texto não seja sobrescrito.
-*   **⚡ Adição Instantânea:** Se você disser qualquer frase que não corresponda a um comando estruturado (como "comprar café" ou "ir ao mercado"), o Jarvis a adicionará diretamente como uma nova tarefa de forma rápida e imediata, sem chamadas ou pesquisas externas.
-*   **🔒 Arquitetura Thread-Safe e Escrita Atômica:** Utiliza travas de concorrência (`RLock`) e leitura-escrita em transação atômica (`update_tasks`), prevenindo corrupção de dados entre a thread de voz e a GUI.
+O Jarvis atua como o seu bloco de notas inteligente. Por enquanto, ele é capaz de gerenciar a sua lista de tarefas diretamente pelo microfone.
 
----
+Aqui estão os principais comandos suportados:
 
-## 🛠️ Tecnologias Utilizadas
-
-*   **Linguagem:** Python 3.8+
-*   **Interface Gráfica:** CustomTkinter (Visual Premium Dark Mode)
-*   **Reconhecimento de Voz:** SpeechRecognition (com API do Google Speech em segundo plano)
-*   **Síntese de Voz (TTS):** pyttsx3 (Sintetizador nativo offline do Windows, sem necessidade de internet para falas básicas)
-*   **Integração IA:** Google Generative AI API (Gemini 1.5 Flash)
-*   **Gerenciador de Tarefas:** SQLite Database com persistência thread-safe.
-
----
-
-## 📂 Estrutura do Diretório
-
-```text
-jarvis-task-assistant/
-├── data/                    # Banco de dados e backups
-│   ├── tasks.db             # Banco de dados relacional SQLite
-│   └── tasks.json.bak       # Backup da base antiga
-├── logs/                    # Arquivos de log de execução
-│   └── jarvis.log           # Log do assistente
-├── scripts/                 # Scripts utilitários e de execução
-│   └── start-jarvis.bat     # Script de inicialização portátil
-├── tests/                   # Arquivos de testes de unidade
-│   └── test_voice_handler.py# Suite de testes
-├── app.pyw                  # Interface gráfica (CustomTkinter)
-├── voice_handler.py         # Módulo de áudio/voz e Gemini fallback
-├── task_manager.py          # Leitura e escrita no SQLite
-├── config.json              # Chave de API, hotkey e configurações Whisper (ignorado no git)
-├── README.md                # Apresentação do projeto (na raiz)
-├── walkthrough.md           # Manual de uso detalhado (na raiz)
-└── qa_report.md             # Relatório detalhado de QA na raiz
-```
+1. **Ativar o assistente:**
+   - Diga: *"Ligar Jarvis"*, *"Olá Jarvis"*, *"Acordar Jarvis"* ou pressione o atalho `Ctrl+Shift+J`.
+2. **Adicionar Tarefas:**
+   - Diga: *"Adicionar comprar café com prioridade alta"*
+   - Diga: *"Criar tarefa: revisar código"*
+   - *Comando rápido:* Diga diretamente *"Lembrar de ligar para a mãe"* (Se ele não reconhecer o padrão, ele cria a tarefa automaticamente).
+3. **Concluir Tarefas (pelo número ou nome):**
+   - Diga: *"Concluir a tarefa número 2"*
+   - Diga: *"Finalizar comprar café"*
+4. **Remover Tarefas:**
+   - Diga: *"Apagar a tarefa 3"*
+   - Diga: *"Remover revisar código"*
+5. **Alterar e Editar Tarefas:**
+   - Diga: *"Alterar a tarefa X para Y com prioridade média"*
+6. **Desativar o assistente:**
+   - Diga: *"Desligar Jarvis"*, *"Silenciar"* ou clique no indicador luminoso.
 
 ---
 
-## 🚀 Guia de Instalação e Inicialização
+## 🚀 Como Usar (Passo a Passo)
 
-### Passo 1: Pré-requisitos
+Siga os passos abaixo para começar a utilizar o assistente no seu computador:
+
+### 1. Pré-requisitos
 Certifique-se de ter o Python instalado e configurado no PATH do Windows. Instale as dependências executando o comando a seguir no terminal/PowerShell:
 ```bash
-pip install customtkinter speechrecognition pyttsx3 pyaudio pythoncom
+pip install customtkinter speechrecognition pyttsx3 pyaudio pythoncom pandas scikit-learn faster-whisper edge_tts joblib
 ```
-> **Nota:** No Windows, o `pyaudio` é necessário para captura de microfone. Se falhar, instale usando o `pip install pipwin` seguido de `pipwin install pyaudio`, ou baixe a roda pré-compilada (`.whl`).
+> **Nota:** No Windows, o `pyaudio` é necessário para captura de microfone. Se falhar, instale usando o `pip install pipwin` seguido de `pipwin install pyaudio`.
 
-### Passo 2: Configurar API Key
-Crie um arquivo chamado `config.json` na raiz da pasta do projeto e adicione sua chave do Gemini AI:
+### 2. Configurar a Chave de API
+Crie um arquivo chamado `config.json` na raiz do projeto (mesmo nível da pasta `src/`) e adicione:
 ```json
 {
-  "GEMINI_API_KEY": "SUA_API_KEY_AQUI"
+  "GEMINI_API_KEY": "SUA_API_KEY_AQUI",
+  "HOTKEY": "ctrl+shift+j",
+  "speech_engine": "auto"
 }
 ```
 
-### Passo 3: Iniciar o Jarvis
-Dê duplo clique no arquivo **`scripts/start-jarvis.bat`**. O aplicativo abrirá em segundo plano silenciosamente.
+### 3. Iniciar o Assistente
+Você pode iniciar o Jarvis de duas maneiras:
+- Dê duplo clique no arquivo **`scripts/start-jarvis.bat`**.
+- Ou rode o executável direto no terminal: `python src/ui/app.pyw`
+
+O aplicativo abrirá em segundo plano silenciosamente (como um bloco de notas fixado na tela). 
+- **Verde/Azul:** Assistente escutando.
+- **Cinza:** Assistente dormindo.
 
 ---
 
-## 💻 Inicialização Automática com o Windows (Startup)
+## 🧠 Como Treinar a Inteligência (Machine Learning)
 
-Para fazer o Jarvis iniciar automaticamente sempre que você ligar o computador, siga estes passos:
+O Jarvis não depende de regras engessadas (IF/ELSE) para entender o que você diz; ele utiliza um modelo de Machine Learning (`intent_model.pkl`) treinado com PLN (TF-IDF e Regressão Logística). Isso significa que você pode ensiná-lo novas formas de falar!
 
-1.  Pressione as teclas **`Win + R`** no seu teclado para abrir a caixa de diálogo "Executar".
-2.  Digite **`shell:startup`** e pressione **`Enter`**. Isso abrirá a pasta de *Inicialização* do Windows.
-3.  Vá até a subpasta `scripts` dentro da pasta do projeto `jarvis-task-assistant`.
-4.  Clique com o **botão direito** no arquivo **`start-jarvis.bat`** e escolha **Criar Atalho**.
-5.  **Recorte** o atalho criado e **cole** dentro da pasta de *Inicialização* que foi aberta no passo 2.
-6.  Pronto! Na próxima vez que o Windows iniciar, o Jarvis será carregado silenciosamente em segundo plano.
+**Para treinar o seu Jarvis:**
 
----
+1. **Gere dados a partir do seu uso diário:**
+   Sempre que você usa o Jarvis, as frases ditas são gravadas nos logs (`logs/jarvis.log`). Para extraí-las para o formato de treinamento, rode no terminal:
+   ```bash
+   python scripts/export_logs_to_dataset.py
+   ```
+   *Isso atualizará o arquivo base `data/dataset.csv`.*
 
-## 🛡️ Como Superar Barreiras (Solução de Problemas)
+2. **Rotule os novos dados:**
+   Abra o arquivo `data/dataset.csv`. Você verá as frases extraídas. Classifique a coluna `intent` para cada frase nova com uma das intenções suportadas:
+   `wake`, `sleep`, `add_task`, `delete_task`, `complete_task`, `edit_task`, `change_priority` ou `list_tasks`.
 
-### 1. Erro de Microfone / Dispositivo de Entrada Não Encontrado
-*   **Causa:** O Windows pode estar bloqueando o acesso ao microfone ou a biblioteca `PyAudio` não está mapeando a placa de áudio.
-*   **Solução:** 
-    *   Verifique em *Configurações do Windows > Privacidade > Microfone* se a permissão de acesso para aplicativos clássicos de desktop está ativada.
-    *   Caso ocorra erro de importação do `pyaudio`, instale via terminal com privilégios de administrador: `pip install pipwin` e `pipwin install pyaudio`.
-
-### 2. Erro de Sintetizador: "RuntimeError: run loop already started"
-*   **Causa:** Múltiplas threads tentando acionar o `pyttsx3.say()` ao mesmo tempo.
-*   **Solução:** Nossa arquitetura resolveu isso implementando uma fila thread-safe em `voice_handler.py`. Caso reescreva partes do código, garanta que todas as falas sejam enfileiradas através de `self.speak(text)` e consumidas unicamente pela `_speech_worker`.
-
-### 3. API do Gemini retornando erro HTTP 404
-*   **Causa:** Chave API incorreta, sem internet ou modelo descontinuado na URL.
-*   **Solução:** Verifique se o `config.json` contém a chave de API correta. O app usa o endpoint `/v1/models/gemini-1.5-flash:generateContent`. Certifique-se de que sua chave possui cota ativa no Google AI Studio.
+3. **Treine o Novo Modelo:**
+   Com o seu dataset enriquecido com suas gírias e sotaque, recompile o "cérebro" do Jarvis:
+   ```bash
+   python scripts/train_model.py
+   ```
+   *O novo modelo será salvo como `data/intent_model.pkl` e carregado instantaneamente no próximo boot.*
 
 ---
 
-## 🧪 Rodando os Testes Unitários
-Você pode executar o conjunto de testes unitários offline para garantir que a lógica de voz, parsing de números e filtros continuem funcionando:
-```bash
-python -m unittest tests/test_voice_handler.py
+## 📂 Estrutura da Arquitetura Profissional
+
+O projeto conta com um isolamento de camadas (MVC e Serviços) limpo e modular:
+
+```text
+jarvis-task-assistant/
+├── src/
+│   ├── core/                  # Persistência de Dados e Banco (task_manager.py)
+│   ├── services/              # Motor Lógico e de Inteligência
+│   │   ├── audio_transcriber.py   # Lida com o Microfone e Speech-to-Text
+│   │   ├── speech_synthesizer.py  # Lida com a Fala do bot (Edge-TTS)
+│   │   ├── intent_parser.py       # Ponto de ML e Inferência
+│   │   └── voice_handler.py       # Controlador orquestrador do ecossistema
+│   └── ui/                    # Front-end (app.pyw)
+├── data/                      # Banco SQLite (tasks.db) e Modelo (intent_model.pkl)
+├── logs/                      # Log de execução (jarvis.log)
+├── scripts/                   # Scripts utilitários de ML e Batch
+├── tests/                     # Testes Unitários
+├── config.json                # Configurações globais e chaves
+└── README.md                  # Documentação principal
 ```
+
+---
+
+## 🛡️ Solução de Problemas (Troubleshooting)
+
+* **Não Escuta:** Verifique em *Configurações do Windows > Privacidade > Microfone* se o acesso de desktop está liberado.
+* **Corrupção de Áudio na Fala:** O sistema agora usa uma arquitetura de *Queue* isolada, garantindo estabilidade no Text-to-Speech nativo e Edge-TTS.
+* **Falha de Inicialização do Modelo Offline (Faster-Whisper):** O aplicativo possui *fallback* integrado. Se faltar RAM de vídeo para o processamento offline ou a GPU não suportar, o Whisper delegará a função perfeitamente para o Google API Online.
+
+### 🧪 Testes Unitários
+Rode offline: `python -m unittest tests/test_voice_handler.py`
