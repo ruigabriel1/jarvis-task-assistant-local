@@ -28,6 +28,11 @@ class JarvisApp(ctk.CTk):
         self.task_manager = TaskManager(self.tasks_filepath)
 
         self.title("Jarvis - Tarefas Diárias")
+        
+        icon_path = os.path.join(self.project_dir, "assets", "icon.ico")
+        if os.path.exists(icon_path):
+            self.iconbitmap(icon_path)
+            
         self.geometry("520x650")
         self.resizable(False, False)
         self.center_window()
