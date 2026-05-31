@@ -315,29 +315,4 @@ class IntentParser:
         if any(kw in cmd_phrase for kw in list_keywords):
             return {"intent": "list_tasks"}
 
-        # FALLBACK: ADD TASK DIRECTLY
-        content = cmd_text
-        for prefix in ["adicionar ", "crie ", "criar ", "anotar ", "adicione ", "insira ", "inserir ", "a tarefa ", "tarefa ", "uma tarefa "]:
-            if content.lower().startswith(prefix):
-                content = content[len(prefix):].strip()
-                break
-
-        if not content:
-            return {"intent": "add_error"}
-
-        priority = "Média"
-        lower_content = content.lower()
-        if "prioridade alta" in lower_content:
-            priority = "Alta"
-            content = re.sub(r'com prioridade alta|prioridade alta', '', content, flags=re.IGNORECASE).strip()
-        elif "prioridade média" in lower_content or "prioridade media" in lower_content:
-            priority = "Média"
-            content = re.sub(r'com prioridade média|com prioridade media|prioridade média|prioridade media', '', content, flags=re.IGNORECASE).strip()
-        elif "prioridade baixa" in lower_content:
-            priority = "Baixa"
-            content = re.sub(r'com prioridade baixa|prioridade baixa', '', content, flags=re.IGNORECASE).strip()
-
-        if content.lower().endswith(" com"):
-            content = content[:-4].strip()
-
-        return {"intent": "add_task", "content": content, "priority": priority, "fallback": True}
+        return {"intent": "unknown"}
