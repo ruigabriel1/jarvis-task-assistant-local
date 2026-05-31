@@ -56,13 +56,16 @@ Crie um arquivo chamado `config.json` na raiz do projeto (mesmo nível da pasta 
 ```
 
 ### 3. Iniciar o Assistente
-Você pode iniciar o Jarvis de duas maneiras:
-- Dê duplo clique no arquivo **`scripts/start-jarvis.bat`**.
-- Ou rode o executável direto no terminal: `python src/ui/app.pyw`
+O Jarvis agora possui uma versão compilada nativamente para Windows com o ícone oficial embutido!
+
+1. Navegue até a pasta **`dist/Jarvis/`**.
+2. Dê um duplo clique no arquivo **`Jarvis.exe`**.
+
+*(Dica de ouro: Clique com o botão direito no `Jarvis.exe` e escolha "Fixar na barra de tarefas" ou "Enviar para Área de Trabalho" para ter acesso rápido a ele todos os dias).*
 
 O aplicativo abrirá em segundo plano silenciosamente (como um bloco de notas fixado na tela). 
-- **Verde/Azul:** Assistente escutando.
-- **Cinza:** Assistente dormindo.
+- **Luz Azul (Indicador):** Assistente ativado e escutando seus comandos.
+- **Luz Cinza:** Assistente dormindo (Diga "Ligar Jarvis" para acordar).
 
 ---
 
