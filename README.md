@@ -21,7 +21,6 @@ Aqui estão os principais comandos suportados:
 2. **Adicionar Tarefas:**
    - Diga: *"Adicionar comprar café com prioridade alta"*
    - Diga: *"Criar tarefa: revisar código"*
-   - *Comando rápido:* Diga diretamente *"Lembrar de ligar para a mãe"* (Se ele não reconhecer o padrão, ele cria a tarefa automaticamente).
 3. **Concluir Tarefas (pelo número ou nome):**
    - Diga: *"Concluir a tarefa número 2"*
    - Diga: *"Finalizar comprar café"*
