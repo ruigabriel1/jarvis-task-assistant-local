@@ -29,9 +29,24 @@ class JarvisApp(ctk.CTk):
 
         self.title("Jarvis - Tarefas Diárias")
         
-        icon_path = os.path.join(self.project_dir, "assets", "icon.ico")
-        if os.path.exists(icon_path):
-            self.iconbitmap(icon_path)
+        # Correção para o ícone aparecer na barra de tarefas do Windows
+        try:
+            import ctypes
+            ctypes.windll.shell32.SetCurrentProcessExplicitAppUserModelID("jarvis.task.assistant")
+        except Exception:
+            pass
+
+        icon_path_ico = os.path.join(self.project_dir, "assets", "icon.ico")
+        icon_path_png = os.path.join(self.project_dir, "assets", "icon.png")
+        
+        try:
+            if os.path.exists(icon_path_ico):
+                self.iconbitmap(icon_path_ico)
+            if os.path.exists(icon_path_png):
+                icon_img = tk.PhotoImage(file=icon_path_png)
+                self.wm_iconphoto(True, icon_img)
+        except Exception as e:
+            pass
             
         self.geometry("520x650")
         self.resizable(False, False)
